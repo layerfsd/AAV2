@@ -37,6 +37,7 @@ TestResult.xml
 [Rr]eleasePS/
 dlldata.c
 
+*.db
 *_i.c
 *_p.c
 *_i.h
@@ -55,6 +56,7 @@ dlldata.c
 *.tmp
 *.tmp_proj
 *.log
+*.tlog
 *.vspscc
 *.vssscc
 .builds
