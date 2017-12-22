@@ -1,2 +1,5 @@
-﻿  Cloudhouse.SharedMemory.Test.vcxproj -> C:\Dev\AAV2\Debug\Cloudhouse.SharedMemory.Test.dll
+﻿  stdafx.cpp
+  SharedMemoryTests.cpp
+     Creating library C:\Dev\AAV2\Debug\Cloudhouse.SharedMemory.Test.lib and object C:\Dev\AAV2\Debug\Cloudhouse.SharedMemory.Test.exp
+  Cloudhouse.SharedMemory.Test.vcxproj -> C:\Dev\AAV2\Debug\Cloudhouse.SharedMemory.Test.dll
   Cloudhouse.SharedMemory.Test.vcxproj -> C:\Dev\AAV2\Debug\Cloudhouse.SharedMemory.Test.pdb (Partial PDB)

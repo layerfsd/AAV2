@@ -17,7 +17,7 @@ void HookNtFunctions()
   //HookNtAttributesFileFunctions();
   //HookNtDirectoryObjectFunctions();
   HookNtEventFunctions();
-  //HookNtPortFunctions();
+  HookNtPortFunctions();
   //HookNtSectionFunctions();
   //HookNtSemaphoreFunctions();
   //HookNtTimerFunctions();

@@ -31,5 +31,8 @@
     <ClCompile Include="MyUnicodeStringTests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="NtEventHookTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

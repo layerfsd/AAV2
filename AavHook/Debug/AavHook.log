@@ -1,2 +1,6 @@
-﻿  AavHook.vcxproj -> C:\Dev\AAV2\Debug\AavHook.dll
+﻿  stdafx.cpp
+  AavHook.cpp
+  dllmain.cpp
+     Creating library C:\Dev\AAV2\Debug\AavHook.lib and object C:\Dev\AAV2\Debug\AavHook.exp
+  AavHook.vcxproj -> C:\Dev\AAV2\Debug\AavHook.dll
   AavHook.vcxproj -> C:\Dev\AAV2\Debug\AavHook.pdb (Partial PDB)

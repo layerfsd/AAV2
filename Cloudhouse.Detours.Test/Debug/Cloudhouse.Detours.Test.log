@@ -1,3 +1,7 @@
-﻿  HookTests.cpp
+﻿  stdafx.cpp
+  HookTests.cpp
+  CoRegisterClassObject.cpp
+  Generating Code...
+     Creating library C:\Dev\AAV2\Debug\Cloudhouse.Detours.Test.lib and object C:\Dev\AAV2\Debug\Cloudhouse.Detours.Test.exp
   Cloudhouse.Detours.Test.vcxproj -> C:\Dev\AAV2\Debug\Cloudhouse.Detours.Test.dll
   Cloudhouse.Detours.Test.vcxproj -> C:\Dev\AAV2\Debug\Cloudhouse.Detours.Test.pdb (Partial PDB)
