@@ -1,0 +1,88 @@
+
+char __fastcall    LdrpLoadDllInternal(UNICODE_STRING *this, int edx0, int a2, int a3, int a4, int a5, PVOID *a6, signed int *a7);
+int __fastcall     LdrpFindKnownDll(PCUNICODE_STRING Source, int a2, PUNICODE_STRING Destination, PHANDLE SectionHandle);
+int __fastcall     LdrpFindLoadedDllByName(UNICODE_STRING *String, const UNICODE_STRING *a2, int a3, int a4, int a5);
+int __stdcall      LdrGetDllFullName(int, PUNICODE_STRING DestinationString); // idb
+int __stdcall      RtlCreateProcessParametersEx(int, int, int, int, int, void *Src, int, int, int, int, int); // idb
+
+NTSTATUS __fastcall LdrpFindLoadedDllInternal(UNICODE_STRING *a1, int a2, int *a3, int a4, int a5);
+NTSTATUS __fastcall OpenOrCreateKeyWithFlags(ACCESS_MASK DesiredAccess, char a2, int a3, PHANDLE KeyHandle, PULONG Disposition);
+NTSTATUS __stdcall NtAcceptConnectPort(PHANDLE PortHandle, ULONG PortIdentifier, PPORT_MESSAGE Message, BOOLEAN Accept, PPORT_SECTION_WRITE WriteSection, PPORT_SECTION_READ ReadSection);
+NTSTATUS __stdcall NtConnectPort(PHANDLE PortHandle, PUNICODE_STRING PortName, PSECURITY_QUALITY_OF_SERVICE SecurityQos, PPORT_SECTION_WRITE WriteSection, PPORT_SECTION_READ ReadSection, PULONG MaxMessageSize, PVOID ConnectData, PULONG ConnectDataLength);
+NTSTATUS __stdcall NtCreateThread(PHANDLE ThreadHandle, ACCESS_MASK DesiredAccess, POBJECT_ATTRIBUTES ObjectAttributes, HANDLE ProcessHandle, PCLIENT_ID ClientId, PCONTEXT ThreadContext, PUSER_STACK UserStack, BOOLEAN CreateSuspended);
+NTSTATUS __stdcall NtCreateToken(PHANDLE TokenHandle, ACCESS_MASK DesiredAccess, POBJECT_ATTRIBUTES ObjectAttributes, TOKEN_TYPE Type, PLUID AuthenticationId, PLARGE_INTEGER ExpirationTime, PTOKEN_USER User, PTOKEN_GROUPS Groups, PTOKEN_PRIVILEGES Privileges, PTOKEN_OWNER Owner, PTOKEN_PRIMARY_GROUP PrimaryGroup, PTOKEN_DEFAULT_DACL DefaultDacl, PTOKEN_SOURCE Source);
+NTSTATUS __stdcall NtDeleteFile(POBJECT_ATTRIBUTES ObjectAttributes);
+NTSTATUS __stdcall NtDeleteObjectAuditAlarm(PUNICODE_STRING SubsystemName, PVOID HandleId, BOOLEAN GenerateOnClose);
+NTSTATUS __stdcall NtDeleteValueKey(HANDLE KeyHandle, PUNICODE_STRING ValueName);
+NTSTATUS __stdcall NtDuplicateToken(HANDLE ExistingTokenHandle, ACCESS_MASK DesiredAccess, POBJECT_ATTRIBUTES ObjectAttributes, BOOLEAN EffectiveOnly, TOKEN_TYPE TokenType, PHANDLE NewTokenHandle);
+NTSTATUS __stdcall NtLoadKey(POBJECT_ATTRIBUTES KeyObjectAttributes, POBJECT_ATTRIBUTES FileObjectAttributes);
+NTSTATUS __stdcall NtLoadKey2(POBJECT_ATTRIBUTES KeyObjectAttributes, POBJECT_ATTRIBUTES FileObjectAttributes, ULONG Flags);
+NTSTATUS __stdcall NtNotifyChangeMultipleKeys(HANDLE KeyHandle, ULONG Flags, POBJECT_ATTRIBUTES KeyObjectAttributes, HANDLE EventHandle, PIO_APC_ROUTINE ApcRoutine, PVOID ApcContext, PIO_STATUS_BLOCK IoStatusBlock, ULONG NotifyFilter, BOOLEAN WatchSubtree, PVOID Buffer, ULONG BufferLength, BOOLEAN Asynchronous);
+NTSTATUS __stdcall NtOpenEventPair(PHANDLE EventPairHandle, ACCESS_MASK DesiredAccess, POBJECT_ATTRIBUTES ObjectAttributes);
+NTSTATUS __stdcall NtOpenFile(PHANDLE FileHandle, ACCESS_MASK DesiredAccess, POBJECT_ATTRIBUTES ObjectAttributes, PIO_STATUS_BLOCK IoStatusBlock, ULONG ShareAccess, ULONG OpenOptions);
+NTSTATUS __stdcall NtOpenSymbolicLinkObject(PHANDLE LinkHandle, ACCESS_MASK DesiredAccess, POBJECT_ATTRIBUTES ObjectAttributes);
+NTSTATUS __stdcall NtSecureConnectPort(PHANDLE PortHandle, PUNICODE_STRING PortName, PSECURITY_QUALITY_OF_SERVICE SecurityQos, PPORT_SECTION_WRITE WriteSection, PSID ServerSid, PPORT_SECTION_READ ReadSection, PULONG MaxMessageSize, PVOID ConnectData, PULONG ConnectDataLength);
+NTSTATUS __stdcall NtSetVolumeInformationFile(HANDLE FileHandle, PIO_STATUS_BLOCK IoStatusBlock, PVOID Buffer, ULONG BufferLength, FS_INFORMATION_CLASS VolumeInformationClass);
+NTSTATUS __stdcall NtUnloadKey(POBJECT_ATTRIBUTES KeyObjectAttributes);
+NTSTATUS __stdcall RtlCapabilityCheck(int a1, PCUNICODE_STRING SourceString, int a3);
+NTSTATUS __stdcall RtlCreateProcessParameters(PRTL_USER_PROCESS_PARAMETERS *ProcessParameters, PUNICODE_STRING CommandLine, PUNICODE_STRING DllPath, PUNICODE_STRING CurrentDirectory, PUNICODE_STRING ImagePathName, PVOID Environment, PUNICODE_STRING WindowTitle, PUNICODE_STRING DesktopInfo, PUNICODE_STRING ShellInfo, PUNICODE_STRING RuntimeData);
+NTSTATUS __stdcall RtlCreateServiceSid(PCUNICODE_STRING SourceString, PSID Sid, int a3);
+NTSTATUS __stdcall RtlCreateUserProcess(PUNICODE_STRING CommandLine, ULONG Unknown2, PRTL_USER_PROCESS_PARAMETERS ProcessParameters, PSECURITY_DESCRIPTOR ProcessSd, PSECURITY_DESCRIPTOR ThreadSd, BOOLEAN bInheritHandles, DWORD dwCreationFlags, ULONG Unknown8, ULONG Unknown9, PRTL_USER_PROCESS_INFO ProcessInfo);
+NTSTATUS __stdcall RtlCreateUserThread(HANDLE ProcessHandle, PVOID unknown1, PVOID unknown2, PVOID unknown3, PVOID unknown4, PVOID unknown5, PSTARTUP_ROUTINE StartupRoutine, PVOID StartupContext, PVOID unknown6, PVOID unknown7);
+NTSTATUS __stdcall RtlCreateVirtualAccountSid(PCUNICODE_STRING SourceString, int a2, PSID Sid, int a4);
+NTSTATUS __stdcall RtlDeriveCapabilitySidsFromName(PCUNICODE_STRING SourceString, PSID Sid, void *Dst);
+NTSTATUS __stdcall RtlExpandEnvironmentStrings_U(PVOID Environment, PUNICODE_STRING Source, PUNICODE_STRING Destination, PULONG Length);
+NTSTATUS __stdcall RtlFormatCurrentUserKeyPath(PUNICODE_STRING Destination);
+NTSTATUS __stdcall RtlpNtOpenKey(PHANDLE KeyHandle, ACCESS_MASK DesiredAccess, POBJECT_ATTRIBUTES ObjectAttributes, int a4);
+NTSTATUS __stdcall RtlQueryEnvironmentVariable_U(PVOID Environment, PUNICODE_STRING Name, PUNICODE_STRING Value);
+NTSTATUS __stdcall RtlSetCurrentDirectory_U(PUNICODE_STRING name);
+NTSTATUS __stdcall RtlSetEnvironmentVariable(PVOID *Environment, PUNICODE_STRING Name, PUNICODE_STRING Value);
+NTSTATUS __stdcall NtCloseObjectAuditAlarm(PUNICODE_STRING SubsystemName, PVOID HandleId, BOOLEAN GenerateOnClose);
+NTSTATUS __stdcall NtCreateJobObject(PHANDLE JobHandle, ACCESS_MASK DesiredAccess, POBJECT_ATTRIBUTES ObjectAttributes);
+NTSTATUS __stdcall NtCreateKey(PHANDLE KeyHandle, ACCESS_MASK DesiredAccess, POBJECT_ATTRIBUTES ObjectAttributes, ULONG TitleIndex, PUNICODE_STRING Class, ULONG CreateOptions, PULONG Disposition);
+NTSTATUS __stdcall NtCreateMailslotFile(PHANDLE FileHandle, ACCESS_MASK DesiredAccess, POBJECT_ATTRIBUTES ObjectAttributes, PIO_STATUS_BLOCK IoStatusBlock, ULONG CreateOptions, ULONG Unknown, ULONG MaxMessageSize, PLARGE_INTEGER ReadTimeout);
+NTSTATUS __stdcall NtCreateNamedPipeFile(PHANDLE FileHandle, ACCESS_MASK DesiredAccess, POBJECT_ATTRIBUTES ObjectAttributes, PIO_STATUS_BLOCK IoStatusBlock, ULONG ShareAccess, ULONG CreateDisposition, ULONG CreateOptions, BOOLEAN TypeMessage, BOOLEAN ReadmodeMessage, BOOLEAN Nonblocking, ULONG MaxInstances, ULONG InBufferSize, ULONG OutBufferSize, PLARGE_INTEGER DefaultTimeout);
+NTSTATUS __stdcall NtCreateProcess(PHANDLE ProcessHandle, ACCESS_MASK DesiredAccess, POBJECT_ATTRIBUTES ObjectAttributes, HANDLE InheritFromProcessHandle, BOOLEAN InheritHandles, HANDLE SectionHandle, HANDLE DebugPort, HANDLE ExceptionPort);
+NTSTATUS __stdcall NtCreateSymbolicLinkObject(PHANDLE SymbolicLinkHandle, ACCESS_MASK DesiredAccess, POBJECT_ATTRIBUTES ObjectAttributes, PUNICODE_STRING TargetName);
+NTSTATUS __stdcall NtCreateWaitablePort(PHANDLE PortHandle, POBJECT_ATTRIBUTES ObjectAttributes, ULONG MaxDataSize, ULONG MaxMessageSize, ULONG Reserved);
+NTSTATUS __stdcall NtOpenDirectoryObject(PHANDLE DirectoryHandle, ACCESS_MASK DesiredAccess, POBJECT_ATTRIBUTES ObjectAttributes);
+NTSTATUS __stdcall NtOpenIoCompletion(PHANDLE IoCompletionHandle, ACCESS_MASK DesiredAccess, POBJECT_ATTRIBUTES ObjectAttributes);
+NTSTATUS __stdcall NtOpenJobObject(PHANDLE JobHandle, ACCESS_MASK DesiredAccess, POBJECT_ATTRIBUTES ObjectAttributes);
+NTSTATUS __stdcall NtOpenKey(PHANDLE KeyHandle, ACCESS_MASK DesiredAccess, POBJECT_ATTRIBUTES ObjectAttributes);
+NTSTATUS __stdcall NtOpenProcess(PHANDLE ProcessHandle, ACCESS_MASK DesiredAccess, POBJECT_ATTRIBUTES ObjectAttributes, PCLIENT_ID ClientId);
+NTSTATUS __stdcall NtOpenThread(PHANDLE ThreadHandle, ACCESS_MASK DesiredAccess, POBJECT_ATTRIBUTES ObjectAttributes, PCLIENT_ID ClientId);
+NTSTATUS __stdcall NtOpenTimer(PHANDLE TimerHandle, ACCESS_MASK DesiredAccess, POBJECT_ATTRIBUTES ObjectAttributes);
+NTSTATUS __stdcall NtQueryAttributesFile(POBJECT_ATTRIBUTES ObjectAttributes, PFILE_BASIC_INFORMATION FileInformation);
+NTSTATUS __stdcall NtQueryDirectoryFile(HANDLE FileHandle, HANDLE Event, PIO_APC_ROUTINE ApcRoutine, PVOID ApcContext, PIO_STATUS_BLOCK IoStatusBlock, PVOID FileInformation, ULONG FileInformationLength, FILE_INFORMATION_CLASS FileInformationClass, BOOLEAN ReturnSingleEntry, PUNICODE_STRING FileName, BOOLEAN RestartScan);
+NTSTATUS __stdcall NtQueryFullAttributesFile(POBJECT_ATTRIBUTES ObjectAttributes, PFILE_NETWORK_OPEN_INFORMATION FileInformation);
+NTSTATUS __stdcall NtQuerySymbolicLinkObject(HANDLE LinkHandle, PUNICODE_STRING LinkTarget, PULONG ReturnedLength);
+NTSTATUS __stdcall NtQuerySystemEnvironmentValue(PUNICODE_STRING Name, PVOID Value, ULONG ValueLength, PULONG ReturnLength);
+NTSTATUS __stdcall NtQueryValueKey(HANDLE KeyHandle, PUNICODE_STRING ValueName, KEY_VALUE_INFORMATION_CLASS KeyValueInformationClass, PVOID KeyValueInformation, ULONG Length, PULONG ResultLength);
+NTSTATUS __stdcall NtReplaceKey(POBJECT_ATTRIBUTES NewFileObjectAttributes, HANDLE KeyHandle, POBJECT_ATTRIBUTES OldFileObjectAttributes);
+NTSTATUS __stdcall NtSetSystemEnvironmentValue(PUNICODE_STRING Name, PUNICODE_STRING Value);
+NTSTATUS __stdcall NtSetValueKey(HANDLE KeyHandle, PUNICODE_STRING ValueName, ULONG TitleIndex, ULONG Type, PVOID Data, ULONG DataSize);
+
+PRTL_USER_PROCESS_PARAMETERS __stdcall RtlDeNormalizeProcessParams(PRTL_USER_PROCESS_PARAMETERS ProcessParameters);
+PRTL_USER_PROCESS_PARAMETERS __stdcall RtlNormalizeProcessParams(PRTL_USER_PROCESS_PARAMETERS ProcessParameters);
+
+signed __int32 __fastcall RtlpLookupCurDirSetting(PUNICODE_STRING ValueName, signed __int32 a2, int a3);
+signed int __fastcall _ResQueryValueKey(void *a1, LSA_UNICODE_STRING *a2, _DWORD *a3, void *Dst, int *a5, int a6);
+signed int __fastcall LdrpFastpthReloadedDll(UNICODE_STRING *a1, __int16 a2, int a3, int a4);
+signed int __fastcall LdrpFindLoadedDllByNameLockHeld(const UNICODE_STRING *a1, const UNICODE_STRING *a2, char a3, int *a4, int a5);
+signed int __fastcall LdrpLoadKnownDll(const UNICODE_STRING *a1);
+signed int __fastcall LdrpQueryValueKey(HANDLE a1, LSA_UNICODE_STRING *a2, _DWORD *a3, void *Dst, ULONG *a5, int a6);
+
+ULONG __thiscall LdrpHashUnicodeString(UNICODE_STRING *String);
+
+void __fastcall RtlpCreateUserProcess(int a1, int a2, int a3, int a4, int a5, __int16 a6, int a7, int a8, int a9, int a10, void *Dst);
+void __stdcall NtCreateKeyTransacted(int a1, int a2, int a3, int a4, int a5, int a6, int a7, int a8);
+void __stdcall NtOpenKeyedEvent(int a1, int a2, int a3);
+void __stdcall NtOpenKeyTransacted(int a1, int a2, int a3, int a4);
+void __stdcall NtOpenKeyTransactedEx(int a1, int a2, int a3, int a4, int a5);
+void __stdcall NtTranslateFilePath(int a1, int a2, int a3, int a4);
+void __stdcall RtlGenerate8dot3Name(PUNICODE_STRING Name, BOOLEAN AllowExtendedCharacters, PGENERATE_NAME_CONTEXT Context, PUNICODE_STRING Name8dot3);
+void __stdcall NtCreateKeyedEvent(int a1, int a2, int a3, int a4);
+void __stdcall NtOpenKeyEx(int a1, int a2, int a3, int a4);
+
+// Should use this instead of old sprintf functions
+__int32 StringCchPrintfW(unsigned __int16 *, unsigned int, size_t cchDest, ...); // idb

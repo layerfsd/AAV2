@@ -1,0 +1,6 @@
+﻿  stdafx.cpp
+  SharedMemoryTests.cpp
+     Creating library C:\Dev\AAV2\x64\Debug\Cloudhouse.SharedMemory.Test.lib and object C:\Dev\AAV2\x64\Debug\Cloudhouse.SharedMemory.Test.exp
+LINK : warning LNK4098: defaultlib 'LIBCMTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Cloudhouse.SharedMemory.Test.vcxproj -> C:\Dev\AAV2\x64\Debug\Cloudhouse.SharedMemory.Test.dll
+  Cloudhouse.SharedMemory.Test.vcxproj -> C:\Dev\AAV2\x64\Debug\Cloudhouse.SharedMemory.Test.pdb (Partial PDB)

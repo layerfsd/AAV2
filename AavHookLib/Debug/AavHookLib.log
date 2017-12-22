@@ -1,0 +1,15 @@
+﻿  MyUnicodeString.cpp
+  Generating Code...
+  Compiling...
+  NtPortHooks.cpp
+  MyObjectAttributes.cpp
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  NtTimerHooks.cpp
+  NtSemaphoreHooks.cpp
+  NtSectionHooks.cpp
+  NtMutantHooks.cpp
+  NtEventHooks.cpp
+  NtDirectoryObjectHooks.cpp
+  NtAttributesFileHooks.cpp
+  AavHookLib.vcxproj -> C:\Dev\AAV2\Debug\AavHookLib.lib

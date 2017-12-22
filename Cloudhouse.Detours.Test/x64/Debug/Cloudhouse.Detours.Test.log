@@ -1,0 +1,24 @@
+﻿  64 bit Processing .\IMike.idl
+  IMike.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\Unknwn.idl
+  Unknwn.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\wtypes.idl
+  wtypes.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\wtypesbase.idl
+  wtypesbase.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\basetsd.h
+  basetsd.h
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\guiddef.h
+  guiddef.h
+  stdafx.cpp
+  HookTests.cpp
+  CoRegisterClassObject.cpp
+  CMike.cpp
+  Generating Code...
+  IMike_p.c
+c:\dev\aav2\cloudhouse.detours.test\imike_p.c(245): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  IMike_i.c
+c:\dev\aav2\cloudhouse.detours.test\imike_i.c(66): warning C4005: 'MIDL_DEFINE_GUID': macro redefinition
+  c:\dev\aav2\cloudhouse.detours.test\imike_i.c(43): note: see previous definition of 'MIDL_DEFINE_GUID'
+c:\dev\aav2\cloudhouse.detours.test\imike_i.c(80): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  Generating Code...

@@ -1,0 +1,1492 @@
+   _
+﻿<?xml version="1.0" encoding="utf-8"?>
+AavCOMProxy.vcxproj  1  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  1  Error 129: declaration expected, identifier 'xml'
+    ignored
+AavCOMProxy.vcxproj  1  Error 129: declaration expected, identifier 'version'
+    ignored
+AavCOMProxy.vcxproj  1  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  1  Error 129: declaration expected, identifier 'encoding'
+    ignored
+AavCOMProxy.vcxproj  1  Error 10: Expecting identifier or other declarator
+         _
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+AavCOMProxy.vcxproj  2  Error 129: declaration expected, identifier 'Project'
+    ignored
+AavCOMProxy.vcxproj  2  Error 129: declaration expected, identifier
+    'DefaultTargets' ignored
+AavCOMProxy.vcxproj  2  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  2  Error 129: declaration expected, identifier
+    'ToolsVersion' ignored
+AavCOMProxy.vcxproj  2  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  2  Error 129: declaration expected, identifier 'xmlns'
+    ignored
+AavCOMProxy.vcxproj  2  Error 10: Expecting identifier or other declarator
+             _
+  <ItemGroup Label="ProjectConfigurations">
+AavCOMProxy.vcxproj  3  Error 129: declaration expected, identifier 'ItemGroup'
+    ignored
+AavCOMProxy.vcxproj  3  Error 129: declaration expected, identifier 'Label'
+    ignored
+AavCOMProxy.vcxproj  3  Error 10: Expecting identifier or other declarator
+                          _
+    <ProjectConfiguration Include="Debug|Win32">
+AavCOMProxy.vcxproj  4  Error 129: declaration expected, identifier
+    'ProjectConfiguration' ignored
+AavCOMProxy.vcxproj  4  Error 129: declaration expected, identifier 'Include'
+    ignored
+AavCOMProxy.vcxproj  4  Error 10: Expecting identifier or other declarator
+                    _
+      <Configuration>Debug</Configuration>
+AavCOMProxy.vcxproj  5  Error 129: declaration expected, identifier
+    'Configuration' ignored
+AavCOMProxy.vcxproj  5  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  5  Error 40: Undeclared identifier 'Debug'
+AavCOMProxy.vcxproj  5  Error 129: declaration expected, identifier '__created'
+    ignored
+AavCOMProxy.vcxproj  5  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  5  Error 129: declaration expected, identifier
+    'Configuration' ignored
+AavCOMProxy.vcxproj  5  Error 10: Expecting identifier or other declarator
+               _
+      <Platform>Win32</Platform>
+AavCOMProxy.vcxproj  6  Error 129: declaration expected, identifier 'Platform'
+    ignored
+AavCOMProxy.vcxproj  6  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  6  Error 40: Undeclared identifier 'Win32'
+AavCOMProxy.vcxproj  6  Error 129: declaration expected, identifier '__created'
+    ignored
+AavCOMProxy.vcxproj  6  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  6  Error 129: declaration expected, identifier 'Platform'
+    ignored
+AavCOMProxy.vcxproj  6  Error 10: Expecting identifier or other declarator
+                          _
+    </ProjectConfiguration>
+AavCOMProxy.vcxproj  7  Error 129: declaration expected, identifier
+    'ProjectConfiguration' ignored
+AavCOMProxy.vcxproj  7  Error 10: Expecting identifier or other declarator
+                          _
+    <ProjectConfiguration Include="Release|Win32">
+AavCOMProxy.vcxproj  8  Error 129: declaration expected, identifier
+    'ProjectConfiguration' ignored
+AavCOMProxy.vcxproj  8  Error 129: declaration expected, identifier 'Include'
+    ignored
+AavCOMProxy.vcxproj  8  Error 10: Expecting identifier or other declarator
+                    _
+      <Configuration>Release</Configuration>
+AavCOMProxy.vcxproj  9  Error 129: declaration expected, identifier
+    'Configuration' ignored
+AavCOMProxy.vcxproj  9  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  9  Error 40: Undeclared identifier 'Release'
+AavCOMProxy.vcxproj  9  Error 129: declaration expected, identifier '__created'
+    ignored
+AavCOMProxy.vcxproj  9  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  9  Error 129: declaration expected, identifier
+    'Configuration' ignored
+AavCOMProxy.vcxproj  9  Error 10: Expecting identifier or other declarator
+               _
+      <Platform>Win32</Platform>
+AavCOMProxy.vcxproj  10  Error 129: declaration expected, identifier 'Platform'
+    ignored
+AavCOMProxy.vcxproj  10  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  10  Error 40: Undeclared identifier 'Win32'
+AavCOMProxy.vcxproj  10  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  10  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  10  Error 129: declaration expected, identifier 'Platform'
+    ignored
+AavCOMProxy.vcxproj  10  Error 10: Expecting identifier or other declarator
+                          _
+    </ProjectConfiguration>
+AavCOMProxy.vcxproj  11  Error 129: declaration expected, identifier
+    'ProjectConfiguration' ignored
+AavCOMProxy.vcxproj  11  Error 10: Expecting identifier or other declarator
+                          _
+    <ProjectConfiguration Include="Debug|x64">
+AavCOMProxy.vcxproj  12  Error 129: declaration expected, identifier
+    'ProjectConfiguration' ignored
+AavCOMProxy.vcxproj  12  Error 129: declaration expected, identifier 'Include'
+    ignored
+AavCOMProxy.vcxproj  12  Error 10: Expecting identifier or other declarator
+                    _
+      <Configuration>Debug</Configuration>
+AavCOMProxy.vcxproj  13  Error 129: declaration expected, identifier
+    'Configuration' ignored
+AavCOMProxy.vcxproj  13  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  13  Error 40: Undeclared identifier 'Debug'
+AavCOMProxy.vcxproj  13  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  13  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  13  Error 129: declaration expected, identifier
+    'Configuration' ignored
+AavCOMProxy.vcxproj  13  Error 10: Expecting identifier or other declarator
+               _
+      <Platform>x64</Platform>
+AavCOMProxy.vcxproj  14  Error 129: declaration expected, identifier 'Platform'
+    ignored
+AavCOMProxy.vcxproj  14  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  14  Error 40: Undeclared identifier 'x64'
+AavCOMProxy.vcxproj  14  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  14  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  14  Error 129: declaration expected, identifier 'Platform'
+    ignored
+AavCOMProxy.vcxproj  14  Error 10: Expecting identifier or other declarator
+                          _
+    </ProjectConfiguration>
+AavCOMProxy.vcxproj  15  Error 129: declaration expected, identifier
+    'ProjectConfiguration' ignored
+AavCOMProxy.vcxproj  15  Error 10: Expecting identifier or other declarator
+                          _
+    <ProjectConfiguration Include="Release|x64">
+AavCOMProxy.vcxproj  16  Error 129: declaration expected, identifier
+    'ProjectConfiguration' ignored
+AavCOMProxy.vcxproj  16  Error 129: declaration expected, identifier 'Include'
+    ignored
+AavCOMProxy.vcxproj  16  Error 10: Expecting identifier or other declarator
+                    _
+      <Configuration>Release</Configuration>
+AavCOMProxy.vcxproj  17  Error 129: declaration expected, identifier
+    'Configuration' ignored
+AavCOMProxy.vcxproj  17  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  17  Error 40: Undeclared identifier 'Release'
+AavCOMProxy.vcxproj  17  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  17  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  17  Error 129: declaration expected, identifier
+    'Configuration' ignored
+AavCOMProxy.vcxproj  17  Error 10: Expecting identifier or other declarator
+               _
+      <Platform>x64</Platform>
+AavCOMProxy.vcxproj  18  Error 129: declaration expected, identifier 'Platform'
+    ignored
+AavCOMProxy.vcxproj  18  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  18  Error 40: Undeclared identifier 'x64'
+AavCOMProxy.vcxproj  18  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  18  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  18  Error 129: declaration expected, identifier 'Platform'
+    ignored
+AavCOMProxy.vcxproj  18  Error 10: Expecting identifier or other declarator
+                          _
+    </ProjectConfiguration>
+AavCOMProxy.vcxproj  19  Error 129: declaration expected, identifier
+    'ProjectConfiguration' ignored
+AavCOMProxy.vcxproj  19  Error 10: Expecting identifier or other declarator
+             _
+  </ItemGroup>
+AavCOMProxy.vcxproj  20  Error 129: declaration expected, identifier
+    'ItemGroup' ignored
+AavCOMProxy.vcxproj  20  Error 10: Expecting identifier or other declarator
+                 _
+  <PropertyGroup Label="Globals">
+AavCOMProxy.vcxproj  21  Error 129: declaration expected, identifier
+    'PropertyGroup' ignored
+AavCOMProxy.vcxproj  21  Error 129: declaration expected, identifier 'Label'
+    ignored
+AavCOMProxy.vcxproj  21  Error 10: Expecting identifier or other declarator
+                     _
+    <VCProjectVersion>15.0</VCProjectVersion>
+AavCOMProxy.vcxproj  22  Error 129: declaration expected, identifier
+    'VCProjectVersion' ignored
+AavCOMProxy.vcxproj  22  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  22  Error 129: declaration expected, identifier
+    'VCProjectVersion' ignored
+AavCOMProxy.vcxproj  22  Error 10: Expecting identifier or other declarator
+                _
+    <ProjectGuid>{F8EC1D46-69D6-4296-B380-D5423FA7E207}</ProjectGuid>
+AavCOMProxy.vcxproj  23  Error 129: declaration expected, identifier
+    'ProjectGuid' ignored
+AavCOMProxy.vcxproj  23  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  23  Error 129: declaration expected, identifier
+    'ProjectGuid' ignored
+AavCOMProxy.vcxproj  23  Error 10: Expecting identifier or other declarator
+            _
+    <Keyword>Win32Proj</Keyword>
+AavCOMProxy.vcxproj  24  Error 129: declaration expected, identifier 'Keyword'
+    ignored
+AavCOMProxy.vcxproj  24  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  24  Error 40: Undeclared identifier 'Win32Proj'
+AavCOMProxy.vcxproj  24  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  24  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  24  Error 129: declaration expected, identifier 'Keyword'
+    ignored
+AavCOMProxy.vcxproj  24  Error 10: Expecting identifier or other declarator
+                  _
+    <RootNamespace>AavCOMProxy</RootNamespace>
+AavCOMProxy.vcxproj  25  Error 129: declaration expected, identifier
+    'RootNamespace' ignored
+AavCOMProxy.vcxproj  25  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  25  Error 40: Undeclared identifier 'AavCOMProxy'
+AavCOMProxy.vcxproj  25  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  25  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  25  Error 129: declaration expected, identifier
+    'RootNamespace' ignored
+AavCOMProxy.vcxproj  25  Error 10: Expecting identifier or other declarator
+                                 _
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+AavCOMProxy.vcxproj  26  Error 129: declaration expected, identifier
+    'WindowsTargetPlatformVersion' ignored
+AavCOMProxy.vcxproj  26  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  26  Error 129: declaration expected, identifier
+    'WindowsTargetPlatformVersion' ignored
+AavCOMProxy.vcxproj  26  Error 10: Expecting identifier or other declarator
+                 _
+  </PropertyGroup>
+AavCOMProxy.vcxproj  27  Error 129: declaration expected, identifier
+    'PropertyGroup' ignored
+AavCOMProxy.vcxproj  27  Error 10: Expecting identifier or other declarator
+          _
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+AavCOMProxy.vcxproj  28  Error 129: declaration expected, identifier 'Import'
+    ignored
+AavCOMProxy.vcxproj  28  Error 129: declaration expected, identifier 'Project'
+    ignored
+AavCOMProxy.vcxproj  28  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  28  Warning 606: Non-ANSI escape sequence: '\M'
+                 _
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+AavCOMProxy.vcxproj  29  Error 129: declaration expected, identifier
+    'PropertyGroup' ignored
+AavCOMProxy.vcxproj  29  Error 129: declaration expected, identifier
+    'Condition' ignored
+AavCOMProxy.vcxproj  29  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  29  Error 129: declaration expected, identifier 'Label'
+    ignored
+AavCOMProxy.vcxproj  29  Error 10: Expecting identifier or other declarator
+                      _
+    <ConfigurationType>Application</ConfigurationType>
+AavCOMProxy.vcxproj  30  Error 129: declaration expected, identifier
+    'ConfigurationType' ignored
+AavCOMProxy.vcxproj  30  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  30  Error 40: Undeclared identifier 'Application'
+AavCOMProxy.vcxproj  30  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  30  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  30  Error 129: declaration expected, identifier
+    'ConfigurationType' ignored
+AavCOMProxy.vcxproj  30  Error 10: Expecting identifier or other declarator
+                      _
+    <UseDebugLibraries>true</UseDebugLibraries>
+AavCOMProxy.vcxproj  31  Error 129: declaration expected, identifier
+    'UseDebugLibraries' ignored
+AavCOMProxy.vcxproj  31  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  31  Error 40: Undeclared identifier 'true'
+AavCOMProxy.vcxproj  31  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  31  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  31  Error 129: declaration expected, identifier
+    'UseDebugLibraries' ignored
+AavCOMProxy.vcxproj  31  Error 10: Expecting identifier or other declarator
+                    _
+    <PlatformToolset>v141</PlatformToolset>
+AavCOMProxy.vcxproj  32  Error 129: declaration expected, identifier
+    'PlatformToolset' ignored
+AavCOMProxy.vcxproj  32  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  32  Error 40: Undeclared identifier 'v141'
+AavCOMProxy.vcxproj  32  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  32  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  32  Error 129: declaration expected, identifier
+    'PlatformToolset' ignored
+AavCOMProxy.vcxproj  32  Error 10: Expecting identifier or other declarator
+                 _
+    <CharacterSet>Unicode</CharacterSet>
+AavCOMProxy.vcxproj  33  Error 129: declaration expected, identifier
+    'CharacterSet' ignored
+AavCOMProxy.vcxproj  33  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  33  Error 40: Undeclared identifier 'Unicode'
+AavCOMProxy.vcxproj  33  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  33  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  33  Error 129: declaration expected, identifier
+    'CharacterSet' ignored
+AavCOMProxy.vcxproj  33  Error 10: Expecting identifier or other declarator
+                 _
+  </PropertyGroup>
+AavCOMProxy.vcxproj  34  Error 129: declaration expected, identifier
+    'PropertyGroup' ignored
+AavCOMProxy.vcxproj  34  Error 10: Expecting identifier or other declarator
+                 _
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+AavCOMProxy.vcxproj  35  Error 129: declaration expected, identifier
+    'PropertyGroup' ignored
+AavCOMProxy.vcxproj  35  Error 129: declaration expected, identifier
+    'Condition' ignored
+AavCOMProxy.vcxproj  35  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  35  Error 129: declaration expected, identifier 'Label'
+    ignored
+AavCOMProxy.vcxproj  35  Error 10: Expecting identifier or other declarator
+                      _
+    <ConfigurationType>Application</ConfigurationType>
+AavCOMProxy.vcxproj  36  Error 129: declaration expected, identifier
+    'ConfigurationType' ignored
+AavCOMProxy.vcxproj  36  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  36  Error 40: Undeclared identifier 'Application'
+AavCOMProxy.vcxproj  36  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  36  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  36  Error 129: declaration expected, identifier
+    'ConfigurationType' ignored
+AavCOMProxy.vcxproj  36  Error 10: Expecting identifier or other declarator
+                      _
+    <UseDebugLibraries>false</UseDebugLibraries>
+AavCOMProxy.vcxproj  37  Error 129: declaration expected, identifier
+    'UseDebugLibraries' ignored
+AavCOMProxy.vcxproj  37  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  37  Error 40: Undeclared identifier 'false'
+AavCOMProxy.vcxproj  37  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  37  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  37  Error 129: declaration expected, identifier
+    'UseDebugLibraries' ignored
+AavCOMProxy.vcxproj  37  Error 10: Expecting identifier or other declarator
+                    _
+    <PlatformToolset>v141</PlatformToolset>
+AavCOMProxy.vcxproj  38  Error 129: declaration expected, identifier
+    'PlatformToolset' ignored
+AavCOMProxy.vcxproj  38  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  38  Error 40: Undeclared identifier 'v141'
+AavCOMProxy.vcxproj  38  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  38  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  38  Error 129: declaration expected, identifier
+    'PlatformToolset' ignored
+AavCOMProxy.vcxproj  38  Error 10: Expecting identifier or other declarator
+                             _
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+AavCOMProxy.vcxproj  39  Error 129: declaration expected, identifier
+    'WholeProgramOptimization' ignored
+AavCOMProxy.vcxproj  39  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  39  Error 40: Undeclared identifier 'true'
+AavCOMProxy.vcxproj  39  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  39  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  39  Error 129: declaration expected, identifier
+    'WholeProgramOptimization' ignored
+AavCOMProxy.vcxproj  39  Error 10: Expecting identifier or other declarator
+                 _
+    <CharacterSet>Unicode</CharacterSet>
+AavCOMProxy.vcxproj  40  Error 129: declaration expected, identifier
+    'CharacterSet' ignored
+AavCOMProxy.vcxproj  40  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  40  Error 40: Undeclared identifier 'Unicode'
+AavCOMProxy.vcxproj  40  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  40  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  40  Error 129: declaration expected, identifier
+    'CharacterSet' ignored
+AavCOMProxy.vcxproj  40  Error 10: Expecting identifier or other declarator
+                 _
+  </PropertyGroup>
+AavCOMProxy.vcxproj  41  Error 129: declaration expected, identifier
+    'PropertyGroup' ignored
+AavCOMProxy.vcxproj  41  Error 10: Expecting identifier or other declarator
+                 _
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+AavCOMProxy.vcxproj  42  Error 129: declaration expected, identifier
+    'PropertyGroup' ignored
+AavCOMProxy.vcxproj  42  Error 129: declaration expected, identifier
+    'Condition' ignored
+AavCOMProxy.vcxproj  42  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  42  Error 129: declaration expected, identifier 'Label'
+    ignored
+AavCOMProxy.vcxproj  42  Error 10: Expecting identifier or other declarator
+                      _
+    <ConfigurationType>Application</ConfigurationType>
+AavCOMProxy.vcxproj  43  Error 129: declaration expected, identifier
+    'ConfigurationType' ignored
+AavCOMProxy.vcxproj  43  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  43  Error 40: Undeclared identifier 'Application'
+AavCOMProxy.vcxproj  43  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  43  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  43  Error 129: declaration expected, identifier
+    'ConfigurationType' ignored
+AavCOMProxy.vcxproj  43  Error 10: Expecting identifier or other declarator
+                      _
+    <UseDebugLibraries>true</UseDebugLibraries>
+AavCOMProxy.vcxproj  44  Error 129: declaration expected, identifier
+    'UseDebugLibraries' ignored
+AavCOMProxy.vcxproj  44  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  44  Error 40: Undeclared identifier 'true'
+AavCOMProxy.vcxproj  44  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  44  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  44  Error 129: declaration expected, identifier
+    'UseDebugLibraries' ignored
+AavCOMProxy.vcxproj  44  Error 10: Expecting identifier or other declarator
+                    _
+    <PlatformToolset>v141</PlatformToolset>
+AavCOMProxy.vcxproj  45  Error 129: declaration expected, identifier
+    'PlatformToolset' ignored
+AavCOMProxy.vcxproj  45  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  45  Error 40: Undeclared identifier 'v141'
+AavCOMProxy.vcxproj  45  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  45  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  45  Error 129: declaration expected, identifier
+    'PlatformToolset' ignored
+AavCOMProxy.vcxproj  45  Error 10: Expecting identifier or other declarator
+                 _
+    <CharacterSet>Unicode</CharacterSet>
+AavCOMProxy.vcxproj  46  Error 129: declaration expected, identifier
+    'CharacterSet' ignored
+AavCOMProxy.vcxproj  46  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  46  Error 40: Undeclared identifier 'Unicode'
+AavCOMProxy.vcxproj  46  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  46  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  46  Error 129: declaration expected, identifier
+    'CharacterSet' ignored
+AavCOMProxy.vcxproj  46  Error 10: Expecting identifier or other declarator
+                 _
+  </PropertyGroup>
+AavCOMProxy.vcxproj  47  Error 129: declaration expected, identifier
+    'PropertyGroup' ignored
+AavCOMProxy.vcxproj  47  Error 10: Expecting identifier or other declarator
+                 _
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+AavCOMProxy.vcxproj  48  Error 129: declaration expected, identifier
+    'PropertyGroup' ignored
+AavCOMProxy.vcxproj  48  Error 129: declaration expected, identifier
+    'Condition' ignored
+AavCOMProxy.vcxproj  48  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  48  Error 129: declaration expected, identifier 'Label'
+    ignored
+AavCOMProxy.vcxproj  48  Error 10: Expecting identifier or other declarator
+                      _
+    <ConfigurationType>Application</ConfigurationType>
+AavCOMProxy.vcxproj  49  Error 129: declaration expected, identifier
+    'ConfigurationType' ignored
+AavCOMProxy.vcxproj  49  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  49  Error 40: Undeclared identifier 'Application'
+AavCOMProxy.vcxproj  49  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  49  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  49  Error 129: declaration expected, identifier
+    'ConfigurationType' ignored
+AavCOMProxy.vcxproj  49  Error 10: Expecting identifier or other declarator
+                      _
+    <UseDebugLibraries>false</UseDebugLibraries>
+AavCOMProxy.vcxproj  50  Error 129: declaration expected, identifier
+    'UseDebugLibraries' ignored
+AavCOMProxy.vcxproj  50  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  50  Error 40: Undeclared identifier 'false'
+AavCOMProxy.vcxproj  50  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  50  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  50  Error 129: declaration expected, identifier
+    'UseDebugLibraries' ignored
+AavCOMProxy.vcxproj  50  Error 10: Expecting identifier or other declarator
+                    _
+    <PlatformToolset>v141</PlatformToolset>
+AavCOMProxy.vcxproj  51  Error 129: declaration expected, identifier
+    'PlatformToolset' ignored
+AavCOMProxy.vcxproj  51  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  51  Error 40: Undeclared identifier 'v141'
+AavCOMProxy.vcxproj  51  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  51  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  51  Error 129: declaration expected, identifier
+    'PlatformToolset' ignored
+AavCOMProxy.vcxproj  51  Error 10: Expecting identifier or other declarator
+                             _
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+AavCOMProxy.vcxproj  52  Error 129: declaration expected, identifier
+    'WholeProgramOptimization' ignored
+AavCOMProxy.vcxproj  52  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  52  Error 40: Undeclared identifier 'true'
+AavCOMProxy.vcxproj  52  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  52  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  52  Error 129: declaration expected, identifier
+    'WholeProgramOptimization' ignored
+AavCOMProxy.vcxproj  52  Error 10: Expecting identifier or other declarator
+                 _
+    <CharacterSet>Unicode</CharacterSet>
+AavCOMProxy.vcxproj  53  Error 129: declaration expected, identifier
+    'CharacterSet' ignored
+AavCOMProxy.vcxproj  53  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  53  Error 40: Undeclared identifier 'Unicode'
+AavCOMProxy.vcxproj  53  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  53  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  53  Error 129: declaration expected, identifier
+    'CharacterSet' ignored
+AavCOMProxy.vcxproj  53  Error 10: Expecting identifier or other declarator
+                 _
+  </PropertyGroup>
+AavCOMProxy.vcxproj  54  Error 129: declaration expected, identifier
+    'PropertyGroup' ignored
+AavCOMProxy.vcxproj  54  Error 10: Expecting identifier or other declarator
+          _
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+AavCOMProxy.vcxproj  55  Error 129: declaration expected, identifier 'Import'
+    ignored
+AavCOMProxy.vcxproj  55  Error 129: declaration expected, identifier 'Project'
+    ignored
+AavCOMProxy.vcxproj  55  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  55  Warning 606: Non-ANSI escape sequence: '\M'
+               _
+  <ImportGroup Label="ExtensionSettings">
+AavCOMProxy.vcxproj  56  Error 129: declaration expected, identifier
+    'ImportGroup' ignored
+AavCOMProxy.vcxproj  56  Error 129: declaration expected, identifier 'Label'
+    ignored
+AavCOMProxy.vcxproj  56  Error 10: Expecting identifier or other declarator
+               _
+  </ImportGroup>
+AavCOMProxy.vcxproj  57  Error 129: declaration expected, identifier
+    'ImportGroup' ignored
+AavCOMProxy.vcxproj  57  Error 10: Expecting identifier or other declarator
+               _
+  <ImportGroup Label="Shared">
+AavCOMProxy.vcxproj  58  Error 129: declaration expected, identifier
+    'ImportGroup' ignored
+AavCOMProxy.vcxproj  58  Error 129: declaration expected, identifier 'Label'
+    ignored
+AavCOMProxy.vcxproj  58  Error 10: Expecting identifier or other declarator
+               _
+  </ImportGroup>
+AavCOMProxy.vcxproj  59  Error 129: declaration expected, identifier
+    'ImportGroup' ignored
+AavCOMProxy.vcxproj  59  Error 10: Expecting identifier or other declarator
+               _
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+AavCOMProxy.vcxproj  60  Error 129: declaration expected, identifier
+    'ImportGroup' ignored
+AavCOMProxy.vcxproj  60  Error 129: declaration expected, identifier 'Label'
+    ignored
+AavCOMProxy.vcxproj  60  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  60  Error 129: declaration expected, identifier
+    'Condition' ignored
+AavCOMProxy.vcxproj  60  Error 10: Expecting identifier or other declarator
+            _
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+AavCOMProxy.vcxproj  61  Error 129: declaration expected, identifier 'Import'
+    ignored
+AavCOMProxy.vcxproj  61  Error 129: declaration expected, identifier 'Project'
+    ignored
+AavCOMProxy.vcxproj  61  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  61  Warning 606: Non-ANSI escape sequence: '\M'
+AavCOMProxy.vcxproj  61  Error 129: declaration expected, identifier
+    'Condition' ignored
+AavCOMProxy.vcxproj  61  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  61  Warning 606: Non-ANSI escape sequence: '\M'
+AavCOMProxy.vcxproj  61  Error 129: declaration expected, identifier 'Label'
+    ignored
+AavCOMProxy.vcxproj  61  Error 10: Expecting identifier or other declarator
+               _
+  </ImportGroup>
+AavCOMProxy.vcxproj  62  Error 129: declaration expected, identifier
+    'ImportGroup' ignored
+AavCOMProxy.vcxproj  62  Error 10: Expecting identifier or other declarator
+               _
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+AavCOMProxy.vcxproj  63  Error 129: declaration expected, identifier
+    'ImportGroup' ignored
+AavCOMProxy.vcxproj  63  Error 129: declaration expected, identifier 'Label'
+    ignored
+AavCOMProxy.vcxproj  63  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  63  Error 129: declaration expected, identifier
+    'Condition' ignored
+AavCOMProxy.vcxproj  63  Error 10: Expecting identifier or other declarator
+            _
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+AavCOMProxy.vcxproj  64  Error 129: declaration expected, identifier 'Import'
+    ignored
+AavCOMProxy.vcxproj  64  Error 129: declaration expected, identifier 'Project'
+    ignored
+AavCOMProxy.vcxproj  64  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  64  Warning 606: Non-ANSI escape sequence: '\M'
+AavCOMProxy.vcxproj  64  Error 129: declaration expected, identifier
+    'Condition' ignored
+AavCOMProxy.vcxproj  64  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  64  Warning 606: Non-ANSI escape sequence: '\M'
+AavCOMProxy.vcxproj  64  Error 129: declaration expected, identifier 'Label'
+    ignored
+AavCOMProxy.vcxproj  64  Error 10: Expecting identifier or other declarator
+               _
+  </ImportGroup>
+AavCOMProxy.vcxproj  65  Error 129: declaration expected, identifier
+    'ImportGroup' ignored
+AavCOMProxy.vcxproj  65  Error 10: Expecting identifier or other declarator
+               _
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+AavCOMProxy.vcxproj  66  Error 129: declaration expected, identifier
+    'ImportGroup' ignored
+AavCOMProxy.vcxproj  66  Error 129: declaration expected, identifier 'Label'
+    ignored
+AavCOMProxy.vcxproj  66  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  66  Error 129: declaration expected, identifier
+    'Condition' ignored
+AavCOMProxy.vcxproj  66  Error 10: Expecting identifier or other declarator
+            _
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+AavCOMProxy.vcxproj  67  Error 129: declaration expected, identifier 'Import'
+    ignored
+AavCOMProxy.vcxproj  67  Error 129: declaration expected, identifier 'Project'
+    ignored
+AavCOMProxy.vcxproj  67  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  67  Warning 606: Non-ANSI escape sequence: '\M'
+AavCOMProxy.vcxproj  67  Error 129: declaration expected, identifier
+    'Condition' ignored
+AavCOMProxy.vcxproj  67  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  67  Warning 606: Non-ANSI escape sequence: '\M'
+AavCOMProxy.vcxproj  67  Error 129: declaration expected, identifier 'Label'
+    ignored
+AavCOMProxy.vcxproj  67  Error 10: Expecting identifier or other declarator
+               _
+  </ImportGroup>
+AavCOMProxy.vcxproj  68  Error 129: declaration expected, identifier
+    'ImportGroup' ignored
+AavCOMProxy.vcxproj  68  Error 10: Expecting identifier or other declarator
+               _
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+AavCOMProxy.vcxproj  69  Error 129: declaration expected, identifier
+    'ImportGroup' ignored
+AavCOMProxy.vcxproj  69  Error 129: declaration expected, identifier 'Label'
+    ignored
+AavCOMProxy.vcxproj  69  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  69  Error 129: declaration expected, identifier
+    'Condition' ignored
+AavCOMProxy.vcxproj  69  Error 10: Expecting identifier or other declarator
+            _
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+AavCOMProxy.vcxproj  70  Error 129: declaration expected, identifier 'Import'
+    ignored
+AavCOMProxy.vcxproj  70  Error 129: declaration expected, identifier 'Project'
+    ignored
+AavCOMProxy.vcxproj  70  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  70  Warning 606: Non-ANSI escape sequence: '\M'
+AavCOMProxy.vcxproj  70  Error 129: declaration expected, identifier
+    'Condition' ignored
+AavCOMProxy.vcxproj  70  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  70  Warning 606: Non-ANSI escape sequence: '\M'
+AavCOMProxy.vcxproj  70  Error 129: declaration expected, identifier 'Label'
+    ignored
+AavCOMProxy.vcxproj  70  Error 10: Expecting identifier or other declarator
+               _
+  </ImportGroup>
+AavCOMProxy.vcxproj  71  Error 129: declaration expected, identifier
+    'ImportGroup' ignored
+AavCOMProxy.vcxproj  71  Error 10: Expecting identifier or other declarator
+                 _
+  <PropertyGroup Label="UserMacros" />
+AavCOMProxy.vcxproj  72  Error 129: declaration expected, identifier
+    'PropertyGroup' ignored
+AavCOMProxy.vcxproj  72  Error 129: declaration expected, identifier 'Label'
+    ignored
+AavCOMProxy.vcxproj  72  Error 10: Expecting identifier or other declarator
+                 _
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+AavCOMProxy.vcxproj  73  Error 129: declaration expected, identifier
+    'PropertyGroup' ignored
+AavCOMProxy.vcxproj  73  Error 129: declaration expected, identifier
+    'Condition' ignored
+AavCOMProxy.vcxproj  73  Error 10: Expecting identifier or other declarator
+                    _
+    <LinkIncremental>true</LinkIncremental>
+AavCOMProxy.vcxproj  74  Error 129: declaration expected, identifier
+    'LinkIncremental' ignored
+AavCOMProxy.vcxproj  74  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  74  Error 40: Undeclared identifier 'true'
+AavCOMProxy.vcxproj  74  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  74  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  74  Error 129: declaration expected, identifier
+    'LinkIncremental' ignored
+AavCOMProxy.vcxproj  74  Error 10: Expecting identifier or other declarator
+                 _
+  </PropertyGroup>
+AavCOMProxy.vcxproj  75  Error 129: declaration expected, identifier
+    'PropertyGroup' ignored
+AavCOMProxy.vcxproj  75  Error 10: Expecting identifier or other declarator
+                 _
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+AavCOMProxy.vcxproj  76  Error 129: declaration expected, identifier
+    'PropertyGroup' ignored
+AavCOMProxy.vcxproj  76  Error 129: declaration expected, identifier
+    'Condition' ignored
+AavCOMProxy.vcxproj  76  Error 10: Expecting identifier or other declarator
+                    _
+    <LinkIncremental>true</LinkIncremental>
+AavCOMProxy.vcxproj  77  Error 129: declaration expected, identifier
+    'LinkIncremental' ignored
+AavCOMProxy.vcxproj  77  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  77  Error 40: Undeclared identifier 'true'
+AavCOMProxy.vcxproj  77  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  77  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  77  Error 129: declaration expected, identifier
+    'LinkIncremental' ignored
+AavCOMProxy.vcxproj  77  Error 10: Expecting identifier or other declarator
+                 _
+  </PropertyGroup>
+AavCOMProxy.vcxproj  78  Error 129: declaration expected, identifier
+    'PropertyGroup' ignored
+AavCOMProxy.vcxproj  78  Error 10: Expecting identifier or other declarator
+                 _
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+AavCOMProxy.vcxproj  79  Error 129: declaration expected, identifier
+    'PropertyGroup' ignored
+AavCOMProxy.vcxproj  79  Error 129: declaration expected, identifier
+    'Condition' ignored
+AavCOMProxy.vcxproj  79  Error 10: Expecting identifier or other declarator
+                    _
+    <LinkIncremental>false</LinkIncremental>
+AavCOMProxy.vcxproj  80  Error 129: declaration expected, identifier
+    'LinkIncremental' ignored
+AavCOMProxy.vcxproj  80  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  80  Error 40: Undeclared identifier 'false'
+AavCOMProxy.vcxproj  80  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  80  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  80  Error 129: declaration expected, identifier
+    'LinkIncremental' ignored
+AavCOMProxy.vcxproj  80  Error 10: Expecting identifier or other declarator
+                 _
+  </PropertyGroup>
+AavCOMProxy.vcxproj  81  Error 129: declaration expected, identifier
+    'PropertyGroup' ignored
+AavCOMProxy.vcxproj  81  Error 10: Expecting identifier or other declarator
+                 _
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+AavCOMProxy.vcxproj  82  Error 129: declaration expected, identifier
+    'PropertyGroup' ignored
+AavCOMProxy.vcxproj  82  Error 129: declaration expected, identifier
+    'Condition' ignored
+AavCOMProxy.vcxproj  82  Error 10: Expecting identifier or other declarator
+                    _
+    <LinkIncremental>false</LinkIncremental>
+AavCOMProxy.vcxproj  83  Error 129: declaration expected, identifier
+    'LinkIncremental' ignored
+AavCOMProxy.vcxproj  83  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  83  Error 40: Undeclared identifier 'false'
+AavCOMProxy.vcxproj  83  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  83  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  83  Error 129: declaration expected, identifier
+    'LinkIncremental' ignored
+AavCOMProxy.vcxproj  83  Error 10: Expecting identifier or other declarator
+                 _
+  </PropertyGroup>
+AavCOMProxy.vcxproj  84  Error 129: declaration expected, identifier
+    'PropertyGroup' ignored
+AavCOMProxy.vcxproj  84  Error 10: Expecting identifier or other declarator
+                       _
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+AavCOMProxy.vcxproj  85  Error 129: declaration expected, identifier
+    'ItemDefinitionGroup' ignored
+AavCOMProxy.vcxproj  85  Error 129: declaration expected, identifier
+    'Condition' ignored
+AavCOMProxy.vcxproj  85  Error 10: Expecting identifier or other declarator
+              _
+    <ClCompile>
+AavCOMProxy.vcxproj  86  Error 129: declaration expected, identifier
+    'ClCompile' ignored
+AavCOMProxy.vcxproj  86  Error 10: Expecting identifier or other declarator
+                        _
+      <PrecompiledHeader>Use</PrecompiledHeader>
+AavCOMProxy.vcxproj  87  Error 129: declaration expected, identifier
+    'PrecompiledHeader' ignored
+AavCOMProxy.vcxproj  87  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  87  Error 40: Undeclared identifier 'Use'
+AavCOMProxy.vcxproj  87  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  87  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  87  Error 129: declaration expected, identifier
+    'PrecompiledHeader' ignored
+AavCOMProxy.vcxproj  87  Error 10: Expecting identifier or other declarator
+                   _
+      <WarningLevel>Level3</WarningLevel>
+AavCOMProxy.vcxproj  88  Error 129: declaration expected, identifier
+    'WarningLevel' ignored
+AavCOMProxy.vcxproj  88  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  88  Error 40: Undeclared identifier 'Level3'
+AavCOMProxy.vcxproj  88  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  88  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  88  Error 129: declaration expected, identifier
+    'WarningLevel' ignored
+AavCOMProxy.vcxproj  88  Error 10: Expecting identifier or other declarator
+                   _
+      <Optimization>Disabled</Optimization>
+AavCOMProxy.vcxproj  89  Error 129: declaration expected, identifier
+    'Optimization' ignored
+AavCOMProxy.vcxproj  89  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  89  Error 40: Undeclared identifier 'Disabled'
+AavCOMProxy.vcxproj  89  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  89  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  89  Error 129: declaration expected, identifier
+    'Optimization' ignored
+AavCOMProxy.vcxproj  89  Error 10: Expecting identifier or other declarator
+                              _
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+AavCOMProxy.vcxproj  90  Error 129: declaration expected, identifier
+    'PreprocessorDefinitions' ignored
+AavCOMProxy.vcxproj  90  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  90  Error 129: declaration expected, identifier 'WIN32'
+    ignored
+AavCOMProxy.vcxproj  90  Error 19: Useless Declaration
+AavCOMProxy.vcxproj  90  Error 129: declaration expected, identifier '_DEBUG'
+    ignored
+AavCOMProxy.vcxproj  90  Error 19: Useless Declaration
+AavCOMProxy.vcxproj  90  Error 129: declaration expected, identifier '_WINDOWS'
+    ignored
+AavCOMProxy.vcxproj  90  Error 19: Useless Declaration
+AavCOMProxy.vcxproj  90  Error 129: declaration expected, identifier
+    'PreprocessorDefinitions' ignored
+AavCOMProxy.vcxproj  90  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  90  Error 129: declaration expected, identifier
+    'PreprocessorDefinitions' ignored
+AavCOMProxy.vcxproj  90  Error 10: Expecting identifier or other declarator
+               _
+    </ClCompile>
+AavCOMProxy.vcxproj  91  Error 129: declaration expected, identifier
+    'ClCompile' ignored
+AavCOMProxy.vcxproj  91  Error 10: Expecting identifier or other declarator
+         _
+    <Link>
+AavCOMProxy.vcxproj  92  Error 129: declaration expected, identifier 'Link'
+    ignored
+AavCOMProxy.vcxproj  92  Error 10: Expecting identifier or other declarator
+                _
+      <SubSystem>Windows</SubSystem>
+AavCOMProxy.vcxproj  93  Error 129: declaration expected, identifier
+    'SubSystem' ignored
+AavCOMProxy.vcxproj  93  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  93  Error 40: Undeclared identifier 'Windows'
+AavCOMProxy.vcxproj  93  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  93  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  93  Error 129: declaration expected, identifier
+    'SubSystem' ignored
+AavCOMProxy.vcxproj  93  Error 10: Expecting identifier or other declarator
+          _
+    </Link>
+AavCOMProxy.vcxproj  94  Error 129: declaration expected, identifier 'Link'
+    ignored
+AavCOMProxy.vcxproj  94  Error 10: Expecting identifier or other declarator
+                       _
+  </ItemDefinitionGroup>
+AavCOMProxy.vcxproj  95  Error 129: declaration expected, identifier
+    'ItemDefinitionGroup' ignored
+AavCOMProxy.vcxproj  95  Error 10: Expecting identifier or other declarator
+                       _
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+AavCOMProxy.vcxproj  96  Error 129: declaration expected, identifier
+    'ItemDefinitionGroup' ignored
+AavCOMProxy.vcxproj  96  Error 129: declaration expected, identifier
+    'Condition' ignored
+AavCOMProxy.vcxproj  96  Error 10: Expecting identifier or other declarator
+              _
+    <ClCompile>
+AavCOMProxy.vcxproj  97  Error 129: declaration expected, identifier
+    'ClCompile' ignored
+AavCOMProxy.vcxproj  97  Error 10: Expecting identifier or other declarator
+                        _
+      <PrecompiledHeader>Use</PrecompiledHeader>
+AavCOMProxy.vcxproj  98  Error 129: declaration expected, identifier
+    'PrecompiledHeader' ignored
+AavCOMProxy.vcxproj  98  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  98  Error 40: Undeclared identifier 'Use'
+AavCOMProxy.vcxproj  98  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  98  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  98  Error 129: declaration expected, identifier
+    'PrecompiledHeader' ignored
+AavCOMProxy.vcxproj  98  Error 10: Expecting identifier or other declarator
+                   _
+      <WarningLevel>Level3</WarningLevel>
+AavCOMProxy.vcxproj  99  Error 129: declaration expected, identifier
+    'WarningLevel' ignored
+AavCOMProxy.vcxproj  99  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  99  Error 40: Undeclared identifier 'Level3'
+AavCOMProxy.vcxproj  99  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  99  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  99  Error 129: declaration expected, identifier
+    'WarningLevel' ignored
+AavCOMProxy.vcxproj  99  Error 10: Expecting identifier or other declarator
+                   _
+      <Optimization>Disabled</Optimization>
+AavCOMProxy.vcxproj  100  Error 129: declaration expected, identifier
+    'Optimization' ignored
+AavCOMProxy.vcxproj  100  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  100  Error 40: Undeclared identifier 'Disabled'
+AavCOMProxy.vcxproj  100  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  100  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  100  Error 129: declaration expected, identifier
+    'Optimization' ignored
+AavCOMProxy.vcxproj  100  Error 10: Expecting identifier or other declarator
+                              _
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+AavCOMProxy.vcxproj  101  Error 129: declaration expected, identifier
+    'PreprocessorDefinitions' ignored
+AavCOMProxy.vcxproj  101  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  101  Error 129: declaration expected, identifier '_DEBUG'
+    ignored
+AavCOMProxy.vcxproj  101  Error 19: Useless Declaration
+AavCOMProxy.vcxproj  101  Error 129: declaration expected, identifier
+    '_WINDOWS' ignored
+AavCOMProxy.vcxproj  101  Error 19: Useless Declaration
+AavCOMProxy.vcxproj  101  Error 129: declaration expected, identifier
+    'PreprocessorDefinitions' ignored
+AavCOMProxy.vcxproj  101  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  101  Error 129: declaration expected, identifier
+    'PreprocessorDefinitions' ignored
+AavCOMProxy.vcxproj  101  Error 10: Expecting identifier or other declarator
+               _
+    </ClCompile>
+AavCOMProxy.vcxproj  102  Error 129: declaration expected, identifier
+    'ClCompile' ignored
+AavCOMProxy.vcxproj  102  Error 10: Expecting identifier or other declarator
+         _
+    <Link>
+AavCOMProxy.vcxproj  103  Error 129: declaration expected, identifier 'Link'
+    ignored
+AavCOMProxy.vcxproj  103  Error 10: Expecting identifier or other declarator
+                _
+      <SubSystem>Windows</SubSystem>
+AavCOMProxy.vcxproj  104  Error 129: declaration expected, identifier
+    'SubSystem' ignored
+AavCOMProxy.vcxproj  104  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  104  Error 40: Undeclared identifier 'Windows'
+AavCOMProxy.vcxproj  104  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  104  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  104  Error 129: declaration expected, identifier
+    'SubSystem' ignored
+AavCOMProxy.vcxproj  104  Error 10: Expecting identifier or other declarator
+          _
+    </Link>
+AavCOMProxy.vcxproj  105  Error 129: declaration expected, identifier 'Link'
+    ignored
+AavCOMProxy.vcxproj  105  Error 10: Expecting identifier or other declarator
+                       _
+  </ItemDefinitionGroup>
+AavCOMProxy.vcxproj  106  Error 129: declaration expected, identifier
+    'ItemDefinitionGroup' ignored
+AavCOMProxy.vcxproj  106  Error 10: Expecting identifier or other declarator
+                       _
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+AavCOMProxy.vcxproj  107  Error 129: declaration expected, identifier
+    'ItemDefinitionGroup' ignored
+AavCOMProxy.vcxproj  107  Error 129: declaration expected, identifier
+    'Condition' ignored
+AavCOMProxy.vcxproj  107  Error 10: Expecting identifier or other declarator
+              _
+    <ClCompile>
+AavCOMProxy.vcxproj  108  Error 129: declaration expected, identifier
+    'ClCompile' ignored
+AavCOMProxy.vcxproj  108  Error 10: Expecting identifier or other declarator
+                   _
+      <WarningLevel>Level3</WarningLevel>
+AavCOMProxy.vcxproj  109  Error 129: declaration expected, identifier
+    'WarningLevel' ignored
+AavCOMProxy.vcxproj  109  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  109  Error 40: Undeclared identifier 'Level3'
+AavCOMProxy.vcxproj  109  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  109  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  109  Error 129: declaration expected, identifier
+    'WarningLevel' ignored
+AavCOMProxy.vcxproj  109  Error 10: Expecting identifier or other declarator
+                        _
+      <PrecompiledHeader>Use</PrecompiledHeader>
+AavCOMProxy.vcxproj  110  Error 129: declaration expected, identifier
+    'PrecompiledHeader' ignored
+AavCOMProxy.vcxproj  110  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  110  Error 40: Undeclared identifier 'Use'
+AavCOMProxy.vcxproj  110  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  110  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  110  Error 129: declaration expected, identifier
+    'PrecompiledHeader' ignored
+AavCOMProxy.vcxproj  110  Error 10: Expecting identifier or other declarator
+                   _
+      <Optimization>MaxSpeed</Optimization>
+AavCOMProxy.vcxproj  111  Error 129: declaration expected, identifier
+    'Optimization' ignored
+AavCOMProxy.vcxproj  111  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  111  Error 40: Undeclared identifier 'MaxSpeed'
+AavCOMProxy.vcxproj  111  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  111  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  111  Error 129: declaration expected, identifier
+    'Optimization' ignored
+AavCOMProxy.vcxproj  111  Error 10: Expecting identifier or other declarator
+                           _
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+AavCOMProxy.vcxproj  112  Error 129: declaration expected, identifier
+    'FunctionLevelLinking' ignored
+AavCOMProxy.vcxproj  112  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  112  Error 40: Undeclared identifier 'true'
+AavCOMProxy.vcxproj  112  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  112  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  112  Error 129: declaration expected, identifier
+    'FunctionLevelLinking' ignored
+AavCOMProxy.vcxproj  112  Error 10: Expecting identifier or other declarator
+                         _
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+AavCOMProxy.vcxproj  113  Error 129: declaration expected, identifier
+    'IntrinsicFunctions' ignored
+AavCOMProxy.vcxproj  113  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  113  Error 40: Undeclared identifier 'true'
+AavCOMProxy.vcxproj  113  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  113  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  113  Error 129: declaration expected, identifier
+    'IntrinsicFunctions' ignored
+AavCOMProxy.vcxproj  113  Error 10: Expecting identifier or other declarator
+                              _
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+AavCOMProxy.vcxproj  114  Error 129: declaration expected, identifier
+    'PreprocessorDefinitions' ignored
+AavCOMProxy.vcxproj  114  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  114  Error 129: declaration expected, identifier 'WIN32'
+    ignored
+AavCOMProxy.vcxproj  114  Error 19: Useless Declaration
+AavCOMProxy.vcxproj  114  Error 129: declaration expected, identifier 'NDEBUG'
+    ignored
+AavCOMProxy.vcxproj  114  Error 19: Useless Declaration
+AavCOMProxy.vcxproj  114  Error 129: declaration expected, identifier
+    '_WINDOWS' ignored
+AavCOMProxy.vcxproj  114  Error 19: Useless Declaration
+AavCOMProxy.vcxproj  114  Error 129: declaration expected, identifier
+    'PreprocessorDefinitions' ignored
+AavCOMProxy.vcxproj  114  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  114  Error 129: declaration expected, identifier
+    'PreprocessorDefinitions' ignored
+AavCOMProxy.vcxproj  114  Error 10: Expecting identifier or other declarator
+               _
+    </ClCompile>
+AavCOMProxy.vcxproj  115  Error 129: declaration expected, identifier
+    'ClCompile' ignored
+AavCOMProxy.vcxproj  115  Error 10: Expecting identifier or other declarator
+         _
+    <Link>
+AavCOMProxy.vcxproj  116  Error 129: declaration expected, identifier 'Link'
+    ignored
+AavCOMProxy.vcxproj  116  Error 10: Expecting identifier or other declarator
+                _
+      <SubSystem>Windows</SubSystem>
+AavCOMProxy.vcxproj  117  Error 129: declaration expected, identifier
+    'SubSystem' ignored
+AavCOMProxy.vcxproj  117  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  117  Error 40: Undeclared identifier 'Windows'
+AavCOMProxy.vcxproj  117  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  117  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  117  Error 129: declaration expected, identifier
+    'SubSystem' ignored
+AavCOMProxy.vcxproj  117  Error 10: Expecting identifier or other declarator
+                          _
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+AavCOMProxy.vcxproj  118  Error 129: declaration expected, identifier
+    'EnableCOMDATFolding' ignored
+AavCOMProxy.vcxproj  118  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  118  Error 40: Undeclared identifier 'true'
+AavCOMProxy.vcxproj  118  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  118  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  118  Error 129: declaration expected, identifier
+    'EnableCOMDATFolding' ignored
+AavCOMProxy.vcxproj  118  Error 10: Expecting identifier or other declarator
+                         _
+      <OptimizeReferences>true</OptimizeReferences>
+AavCOMProxy.vcxproj  119  Error 129: declaration expected, identifier
+    'OptimizeReferences' ignored
+AavCOMProxy.vcxproj  119  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  119  Error 40: Undeclared identifier 'true'
+AavCOMProxy.vcxproj  119  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  119  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  119  Error 129: declaration expected, identifier
+    'OptimizeReferences' ignored
+AavCOMProxy.vcxproj  119  Error 10: Expecting identifier or other declarator
+          _
+    </Link>
+AavCOMProxy.vcxproj  120  Error 129: declaration expected, identifier 'Link'
+    ignored
+AavCOMProxy.vcxproj  120  Error 10: Expecting identifier or other declarator
+                       _
+  </ItemDefinitionGroup>
+AavCOMProxy.vcxproj  121  Error 129: declaration expected, identifier
+    'ItemDefinitionGroup' ignored
+AavCOMProxy.vcxproj  121  Error 10: Expecting identifier or other declarator
+                       _
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+AavCOMProxy.vcxproj  122  Error 129: declaration expected, identifier
+    'ItemDefinitionGroup' ignored
+AavCOMProxy.vcxproj  122  Error 129: declaration expected, identifier
+    'Condition' ignored
+AavCOMProxy.vcxproj  122  Error 10: Expecting identifier or other declarator
+              _
+    <ClCompile>
+AavCOMProxy.vcxproj  123  Error 129: declaration expected, identifier
+    'ClCompile' ignored
+AavCOMProxy.vcxproj  123  Error 10: Expecting identifier or other declarator
+                   _
+      <WarningLevel>Level3</WarningLevel>
+AavCOMProxy.vcxproj  124  Error 129: declaration expected, identifier
+    'WarningLevel' ignored
+AavCOMProxy.vcxproj  124  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  124  Error 40: Undeclared identifier 'Level3'
+AavCOMProxy.vcxproj  124  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  124  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  124  Error 129: declaration expected, identifier
+    'WarningLevel' ignored
+AavCOMProxy.vcxproj  124  Error 10: Expecting identifier or other declarator
+                        _
+      <PrecompiledHeader>Use</PrecompiledHeader>
+AavCOMProxy.vcxproj  125  Error 129: declaration expected, identifier
+    'PrecompiledHeader' ignored
+AavCOMProxy.vcxproj  125  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  125  Error 40: Undeclared identifier 'Use'
+AavCOMProxy.vcxproj  125  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  125  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  125  Error 129: declaration expected, identifier
+    'PrecompiledHeader' ignored
+AavCOMProxy.vcxproj  125  Error 10: Expecting identifier or other declarator
+                   _
+      <Optimization>MaxSpeed</Optimization>
+AavCOMProxy.vcxproj  126  Error 129: declaration expected, identifier
+    'Optimization' ignored
+AavCOMProxy.vcxproj  126  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  126  Error 40: Undeclared identifier 'MaxSpeed'
+AavCOMProxy.vcxproj  126  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  126  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  126  Error 129: declaration expected, identifier
+    'Optimization' ignored
+AavCOMProxy.vcxproj  126  Error 10: Expecting identifier or other declarator
+                           _
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+AavCOMProxy.vcxproj  127  Error 129: declaration expected, identifier
+    'FunctionLevelLinking' ignored
+AavCOMProxy.vcxproj  127  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  127  Error 40: Undeclared identifier 'true'
+AavCOMProxy.vcxproj  127  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  127  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  127  Error 129: declaration expected, identifier
+    'FunctionLevelLinking' ignored
+AavCOMProxy.vcxproj  127  Error 10: Expecting identifier or other declarator
+                         _
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+AavCOMProxy.vcxproj  128  Error 129: declaration expected, identifier
+    'IntrinsicFunctions' ignored
+AavCOMProxy.vcxproj  128  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  128  Error 40: Undeclared identifier 'true'
+AavCOMProxy.vcxproj  128  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  128  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  128  Error 129: declaration expected, identifier
+    'IntrinsicFunctions' ignored
+AavCOMProxy.vcxproj  128  Error 10: Expecting identifier or other declarator
+                              _
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+AavCOMProxy.vcxproj  129  Error 129: declaration expected, identifier
+    'PreprocessorDefinitions' ignored
+AavCOMProxy.vcxproj  129  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  129  Error 129: declaration expected, identifier 'NDEBUG'
+    ignored
+AavCOMProxy.vcxproj  129  Error 19: Useless Declaration
+AavCOMProxy.vcxproj  129  Error 129: declaration expected, identifier
+    '_WINDOWS' ignored
+AavCOMProxy.vcxproj  129  Error 19: Useless Declaration
+AavCOMProxy.vcxproj  129  Error 129: declaration expected, identifier
+    'PreprocessorDefinitions' ignored
+AavCOMProxy.vcxproj  129  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  129  Error 129: declaration expected, identifier
+    'PreprocessorDefinitions' ignored
+AavCOMProxy.vcxproj  129  Error 10: Expecting identifier or other declarator
+               _
+    </ClCompile>
+AavCOMProxy.vcxproj  130  Error 129: declaration expected, identifier
+    'ClCompile' ignored
+AavCOMProxy.vcxproj  130  Error 10: Expecting identifier or other declarator
+         _
+    <Link>
+AavCOMProxy.vcxproj  131  Error 129: declaration expected, identifier 'Link'
+    ignored
+AavCOMProxy.vcxproj  131  Error 10: Expecting identifier or other declarator
+                _
+      <SubSystem>Windows</SubSystem>
+AavCOMProxy.vcxproj  132  Error 129: declaration expected, identifier
+    'SubSystem' ignored
+AavCOMProxy.vcxproj  132  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  132  Error 40: Undeclared identifier 'Windows'
+AavCOMProxy.vcxproj  132  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  132  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  132  Error 129: declaration expected, identifier
+    'SubSystem' ignored
+AavCOMProxy.vcxproj  132  Error 10: Expecting identifier or other declarator
+                          _
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+AavCOMProxy.vcxproj  133  Error 129: declaration expected, identifier
+    'EnableCOMDATFolding' ignored
+AavCOMProxy.vcxproj  133  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  133  Error 40: Undeclared identifier 'true'
+AavCOMProxy.vcxproj  133  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  133  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  133  Error 129: declaration expected, identifier
+    'EnableCOMDATFolding' ignored
+AavCOMProxy.vcxproj  133  Error 10: Expecting identifier or other declarator
+                         _
+      <OptimizeReferences>true</OptimizeReferences>
+AavCOMProxy.vcxproj  134  Error 129: declaration expected, identifier
+    'OptimizeReferences' ignored
+AavCOMProxy.vcxproj  134  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  134  Error 40: Undeclared identifier 'true'
+AavCOMProxy.vcxproj  134  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  134  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  134  Error 129: declaration expected, identifier
+    'OptimizeReferences' ignored
+AavCOMProxy.vcxproj  134  Error 10: Expecting identifier or other declarator
+          _
+    </Link>
+AavCOMProxy.vcxproj  135  Error 129: declaration expected, identifier 'Link'
+    ignored
+AavCOMProxy.vcxproj  135  Error 10: Expecting identifier or other declarator
+                       _
+  </ItemDefinitionGroup>
+AavCOMProxy.vcxproj  136  Error 129: declaration expected, identifier
+    'ItemDefinitionGroup' ignored
+AavCOMProxy.vcxproj  136  Error 10: Expecting identifier or other declarator
+            _
+  <ItemGroup>
+AavCOMProxy.vcxproj  137  Error 129: declaration expected, identifier
+    'ItemGroup' ignored
+AavCOMProxy.vcxproj  137  Error 10: Expecting identifier or other declarator
+               _
+    <ClInclude Include="AavCOMProxy.h" />
+AavCOMProxy.vcxproj  138  Error 129: declaration expected, identifier
+    'ClInclude' ignored
+AavCOMProxy.vcxproj  138  Error 129: declaration expected, identifier 'Include'
+    ignored
+AavCOMProxy.vcxproj  138  Error 10: Expecting identifier or other declarator
+               _
+    <ClInclude Include="Resource.h" />
+AavCOMProxy.vcxproj  139  Error 129: declaration expected, identifier
+    'ClInclude' ignored
+AavCOMProxy.vcxproj  139  Error 129: declaration expected, identifier 'Include'
+    ignored
+AavCOMProxy.vcxproj  139  Error 10: Expecting identifier or other declarator
+               _
+    <ClInclude Include="stdafx.h" />
+AavCOMProxy.vcxproj  140  Error 129: declaration expected, identifier
+    'ClInclude' ignored
+AavCOMProxy.vcxproj  140  Error 129: declaration expected, identifier 'Include'
+    ignored
+AavCOMProxy.vcxproj  140  Error 10: Expecting identifier or other declarator
+               _
+    <ClInclude Include="targetver.h" />
+AavCOMProxy.vcxproj  141  Error 129: declaration expected, identifier
+    'ClInclude' ignored
+AavCOMProxy.vcxproj  141  Error 129: declaration expected, identifier 'Include'
+    ignored
+AavCOMProxy.vcxproj  141  Error 10: Expecting identifier or other declarator
+             _
+  </ItemGroup>
+AavCOMProxy.vcxproj  142  Error 129: declaration expected, identifier
+    'ItemGroup' ignored
+AavCOMProxy.vcxproj  142  Error 10: Expecting identifier or other declarator
+            _
+  <ItemGroup>
+AavCOMProxy.vcxproj  143  Error 129: declaration expected, identifier
+    'ItemGroup' ignored
+AavCOMProxy.vcxproj  143  Error 10: Expecting identifier or other declarator
+               _
+    <ClCompile Include="AavCOMProxy.cpp" />
+AavCOMProxy.vcxproj  144  Error 129: declaration expected, identifier
+    'ClCompile' ignored
+AavCOMProxy.vcxproj  144  Error 129: declaration expected, identifier 'Include'
+    ignored
+AavCOMProxy.vcxproj  144  Error 10: Expecting identifier or other declarator
+               _
+    <ClCompile Include="stdafx.cpp">
+AavCOMProxy.vcxproj  145  Error 129: declaration expected, identifier
+    'ClCompile' ignored
+AavCOMProxy.vcxproj  145  Error 129: declaration expected, identifier 'Include'
+    ignored
+AavCOMProxy.vcxproj  145  Error 10: Expecting identifier or other declarator
+                         _
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+AavCOMProxy.vcxproj  146  Error 129: declaration expected, identifier
+    'PrecompiledHeader' ignored
+AavCOMProxy.vcxproj  146  Error 129: declaration expected, identifier
+    'Condition' ignored
+AavCOMProxy.vcxproj  146  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  146  Error 40: Undeclared identifier 'Create'
+AavCOMProxy.vcxproj  146  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  146  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  146  Error 129: declaration expected, identifier
+    'PrecompiledHeader' ignored
+AavCOMProxy.vcxproj  146  Error 10: Expecting identifier or other declarator
+                         _
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+AavCOMProxy.vcxproj  147  Error 129: declaration expected, identifier
+    'PrecompiledHeader' ignored
+AavCOMProxy.vcxproj  147  Error 129: declaration expected, identifier
+    'Condition' ignored
+AavCOMProxy.vcxproj  147  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  147  Error 40: Undeclared identifier 'Create'
+AavCOMProxy.vcxproj  147  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  147  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  147  Error 129: declaration expected, identifier
+    'PrecompiledHeader' ignored
+AavCOMProxy.vcxproj  147  Error 10: Expecting identifier or other declarator
+                         _
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+AavCOMProxy.vcxproj  148  Error 129: declaration expected, identifier
+    'PrecompiledHeader' ignored
+AavCOMProxy.vcxproj  148  Error 129: declaration expected, identifier
+    'Condition' ignored
+AavCOMProxy.vcxproj  148  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  148  Error 40: Undeclared identifier 'Create'
+AavCOMProxy.vcxproj  148  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  148  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  148  Error 129: declaration expected, identifier
+    'PrecompiledHeader' ignored
+AavCOMProxy.vcxproj  148  Error 10: Expecting identifier or other declarator
+                         _
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+AavCOMProxy.vcxproj  149  Error 129: declaration expected, identifier
+    'PrecompiledHeader' ignored
+AavCOMProxy.vcxproj  149  Error 129: declaration expected, identifier
+    'Condition' ignored
+AavCOMProxy.vcxproj  149  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  149  Error 40: Undeclared identifier 'Create'
+AavCOMProxy.vcxproj  149  Error 129: declaration expected, identifier
+    '__created' ignored
+AavCOMProxy.vcxproj  149  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  149  Error 129: declaration expected, identifier
+    'PrecompiledHeader' ignored
+AavCOMProxy.vcxproj  149  Error 10: Expecting identifier or other declarator
+               _
+    </ClCompile>
+AavCOMProxy.vcxproj  150  Error 129: declaration expected, identifier
+    'ClCompile' ignored
+AavCOMProxy.vcxproj  150  Error 10: Expecting identifier or other declarator
+             _
+  </ItemGroup>
+AavCOMProxy.vcxproj  151  Error 129: declaration expected, identifier
+    'ItemGroup' ignored
+AavCOMProxy.vcxproj  151  Error 10: Expecting identifier or other declarator
+            _
+  <ItemGroup>
+AavCOMProxy.vcxproj  152  Error 129: declaration expected, identifier
+    'ItemGroup' ignored
+AavCOMProxy.vcxproj  152  Error 10: Expecting identifier or other declarator
+                     _
+    <ResourceCompile Include="AavCOMProxy.rc" />
+AavCOMProxy.vcxproj  153  Error 129: declaration expected, identifier
+    'ResourceCompile' ignored
+AavCOMProxy.vcxproj  153  Error 129: declaration expected, identifier 'Include'
+    ignored
+AavCOMProxy.vcxproj  153  Error 10: Expecting identifier or other declarator
+             _
+  </ItemGroup>
+AavCOMProxy.vcxproj  154  Error 129: declaration expected, identifier
+    'ItemGroup' ignored
+AavCOMProxy.vcxproj  154  Error 10: Expecting identifier or other declarator
+            _
+  <ItemGroup>
+AavCOMProxy.vcxproj  155  Error 129: declaration expected, identifier
+    'ItemGroup' ignored
+AavCOMProxy.vcxproj  155  Error 10: Expecting identifier or other declarator
+           _
+    <Image Include="AavCOMProxy.ico" />
+AavCOMProxy.vcxproj  156  Error 129: declaration expected, identifier 'Image'
+    ignored
+AavCOMProxy.vcxproj  156  Error 129: declaration expected, identifier 'Include'
+    ignored
+AavCOMProxy.vcxproj  156  Error 10: Expecting identifier or other declarator
+           _
+    <Image Include="small.ico" />
+AavCOMProxy.vcxproj  157  Error 129: declaration expected, identifier 'Image'
+    ignored
+AavCOMProxy.vcxproj  157  Error 129: declaration expected, identifier 'Include'
+    ignored
+AavCOMProxy.vcxproj  157  Error 10: Expecting identifier or other declarator
+             _
+  </ItemGroup>
+AavCOMProxy.vcxproj  158  Error 129: declaration expected, identifier
+    'ItemGroup' ignored
+AavCOMProxy.vcxproj  158  Error 10: Expecting identifier or other declarator
+            _
+  <ItemGroup>
+AavCOMProxy.vcxproj  159  Error 129: declaration expected, identifier
+    'ItemGroup' ignored
+AavCOMProxy.vcxproj  159  Error 10: Expecting identifier or other declarator
+                      _
+    <ProjectReference Include="..\Cloudhouse.Detours\Cloudhouse.Detours.vcxproj">
+AavCOMProxy.vcxproj  160  Error 129: declaration expected, identifier
+    'ProjectReference' ignored
+AavCOMProxy.vcxproj  160  Error 129: declaration expected, identifier 'Include'
+    ignored
+AavCOMProxy.vcxproj  160  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  160  Warning 606: Non-ANSI escape sequence: '\C'
+AavCOMProxy.vcxproj  160  Warning 606: Non-ANSI escape sequence: '\C'
+              _
+      <Project>{bd117778-5d3c-4580-93c3-c30dd85d95e9}</Project>
+AavCOMProxy.vcxproj  161  Error 129: declaration expected, identifier 'Project'
+    ignored
+AavCOMProxy.vcxproj  161  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  161  Error 129: declaration expected, identifier 'Project'
+    ignored
+AavCOMProxy.vcxproj  161  Error 10: Expecting identifier or other declarator
+                      _
+    </ProjectReference>
+AavCOMProxy.vcxproj  162  Error 129: declaration expected, identifier
+    'ProjectReference' ignored
+AavCOMProxy.vcxproj  162  Error 10: Expecting identifier or other declarator
+             _
+  </ItemGroup>
+AavCOMProxy.vcxproj  163  Error 129: declaration expected, identifier
+    'ItemGroup' ignored
+AavCOMProxy.vcxproj  163  Error 10: Expecting identifier or other declarator
+          _
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+AavCOMProxy.vcxproj  164  Error 129: declaration expected, identifier 'Import'
+    ignored
+AavCOMProxy.vcxproj  164  Error 129: declaration expected, identifier 'Project'
+    ignored
+AavCOMProxy.vcxproj  164  Error 10: Expecting identifier or other declarator
+AavCOMProxy.vcxproj  164  Warning 606: Non-ANSI escape sequence: '\M'
+               _
+  <ImportGroup Label="ExtensionTargets">
+AavCOMProxy.vcxproj  165  Error 129: declaration expected, identifier
+    'ImportGroup' ignored
+AavCOMProxy.vcxproj  165  Error 129: declaration expected, identifier 'Label'
+    ignored
+AavCOMProxy.vcxproj  165  Error 10: Expecting identifier or other declarator
+               _
+  </ImportGroup>
+AavCOMProxy.vcxproj  166  Error 129: declaration expected, identifier
+    'ImportGroup' ignored
+AavCOMProxy.vcxproj  166  Error 10: Expecting identifier or other declarator
+               _
+</Project>
+
+AavCOMProxy.vcxproj  167  Info 783: Line does not end with new-line
+AavCOMProxy.vcxproj  167  Error 129: declaration expected, identifier 'Project'
+    ignored
+AavCOMProxy.vcxproj  167  Error 10: Expecting identifier or other declarator
