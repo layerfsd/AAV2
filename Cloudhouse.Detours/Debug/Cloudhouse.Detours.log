@@ -1,9 +1,0 @@
-﻿  stdafx.cpp
-  modules.cpp
-  image.cpp
-  disasm.cpp
-  detours.cpp
-  creatwth.cpp
-  Cloudhouse.Detour.cpp
-  Generating Code...
-  Cloudhouse.Detours.vcxproj -> C:\Dev\AAV2\Debug\Cloudhouse.Detours.lib
