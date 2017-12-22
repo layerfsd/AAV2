@@ -15,7 +15,7 @@ NTSTATUS NTAPI MyNtCreateSection(__out PHANDLE SectionHandle, __in ACCESS_MASK D
 
   NTSTATUS ntStatus = STATUS_SUCCESS;
 
-  if(CHECK_RULE(RuleType::SECTION, ObjectAttributes))
+  if(CHECK_RULE2(RuleType::SECTION, ObjectAttributes))
   {
     objectAttributes.Virtualize();
   }
@@ -33,7 +33,7 @@ NTSTATUS NTAPI MyNtOpenSection(OUT PHANDLE SectionHandle, IN ACCESS_MASK Desired
 
   NTSTATUS ntStatus = STATUS_SUCCESS;
 
-  if (CHECK_RULE(RuleType::SECTION, ObjectAttributes))
+  if (CHECK_RULE2(RuleType::SECTION, ObjectAttributes))
   {
     objectAttributes.Virtualize();
   }

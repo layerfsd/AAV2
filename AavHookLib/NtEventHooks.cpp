@@ -20,7 +20,7 @@ NTSTATUS NTAPI MyNtCreateEvent(__out PHANDLE EventHandle, __in ACCESS_MASK Desir
 
   NTSTATUS ntStatus = STATUS_SUCCESS;
 
-  if(CHECK_RULE(RuleType::EVENT, ObjectAttributes))
+  if(CHECK_RULE2(RuleType::EVENT, ObjectAttributes))
   {
     objectAttributes.Virtualize();
   }
@@ -38,7 +38,7 @@ NTSTATUS NTAPI MyNtOpenEvent(__out PHANDLE EventHandle, __in ACCESS_MASK Desired
 
   NTSTATUS ntStatus = STATUS_SUCCESS;
 
-  if (CHECK_RULE(RuleType::EVENT, ObjectAttributes))
+  if (CHECK_RULE2(RuleType::EVENT, ObjectAttributes))
   {
     objectAttributes.Virtualize();
   }

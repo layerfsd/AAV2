@@ -20,7 +20,7 @@ NTSTATUS NTAPI MyNtCreateTimer(__out PHANDLE TimerHandle, __in ACCESS_MASK Desir
 
   NTSTATUS ntStatus = STATUS_SUCCESS;
 
-  if(CHECK_RULE(RuleType::TIMER, ObjectAttributes))
+  if(CHECK_RULE2(RuleType::TIMER, ObjectAttributes))
   {
     objectAttributes.Virtualize();
   }
@@ -38,7 +38,7 @@ NTSTATUS NTAPI MyNtOpenTimer(__out PHANDLE TimerHandle, __in ACCESS_MASK Desired
 
   NTSTATUS ntStatus = STATUS_SUCCESS;
 
-  if (CHECK_RULE(RuleType::TIMER, ObjectAttributes))
+  if (CHECK_RULE2(RuleType::TIMER, ObjectAttributes))
   {
     objectAttributes.Virtualize();
   }

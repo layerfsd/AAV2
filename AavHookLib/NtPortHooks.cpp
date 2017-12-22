@@ -107,7 +107,7 @@ NTSTATUS NTAPI MyNtCreatePort(__out PHANDLE PortHandle, __in POBJECT_ATTRIBUTES 
 
   NTSTATUS ntStatus = STATUS_SUCCESS;
 
-  if (CHECK_RULE(RuleType::PORT, ObjectAttributes))
+  if (CHECK_RULE2(RuleType::PORT, ObjectAttributes))
   {
     objectAttributes.Virtualize();
   }
@@ -125,7 +125,7 @@ NTSTATUS NTAPI MyNtCreateWaitablePort(__out PHANDLE PortHandle, __in POBJECT_ATT
 
   NTSTATUS ntStatus = STATUS_SUCCESS;
 
-  if (CHECK_RULE(RuleType::PORT, ObjectAttributes))
+  if (CHECK_RULE2(RuleType::PORT, ObjectAttributes))
   {
     objectAttributes.Virtualize();
   }
@@ -143,7 +143,7 @@ NTSTATUS NTAPI MyNtSecureConnectPort(__out PHANDLE PortHandle, __in PUNICODE_STR
 
   NTSTATUS ntStatus = STATUS_SUCCESS;
 
-  if (CHECK_RULE(RuleType::PORT, ObjectAttributes))
+  if (CHECK_RULE2(RuleType::PORT, ObjectAttributes))
   {
     portName.Virtualize();
   }
@@ -161,7 +161,7 @@ NTSTATUS NTAPI MyNtConnectPort(__out PHANDLE PortHandle, __in PUNICODE_STRING Po
 
   NTSTATUS ntStatus = STATUS_SUCCESS;
 
-  if (CHECK_RULE(RuleType::PORT, ObjectAttributes))
+  if (CHECK_RULE2(RuleType::PORT, ObjectAttributes))
   {
     portName.Virtualize();
   }
@@ -179,7 +179,7 @@ NTSTATUS NTAPI MyNtAlpcCreatePort(__out PHANDLE PortHandle, __in POBJECT_ATTRIBU
 
   NTSTATUS ntStatus = STATUS_SUCCESS;
 
-  if (CHECK_RULE(RuleType::PORT, ObjectAttributes))
+  if (CHECK_RULE2(RuleType::PORT, ObjectAttributes))
   {
     objectAttributes.Virtualize();
   }
@@ -197,7 +197,7 @@ NTSTATUS NTAPI MyNtAlpcConnectPort(__out PHANDLE  PortHandle, __in PUNICODE_STRI
 
   NTSTATUS ntStatus = STATUS_SUCCESS;
 
-  if (CHECK_RULE(RuleType::PORT, ObjectAttributes))
+  if (CHECK_RULE2(RuleType::PORT, ObjectAttributes))
   {
     objectAttributes.Virtualize();
   }

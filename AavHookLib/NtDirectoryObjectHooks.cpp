@@ -15,7 +15,7 @@ NTSTATUS NTAPI MyNtCreateDirectoryObject(OUT PHANDLE FileHandle, IN ACCESS_MASK 
 
   NTSTATUS ntStatus = STATUS_SUCCESS;
 
-  if(CHECK_RULE(RuleType::DIRECTORY_OBJECT, ObjectAttributes))
+  if(CHECK_RULE2(RuleType::DIRECTORY_OBJECT, ObjectAttributes))
   {
     objectAttributes.Redirect();
   }
@@ -33,7 +33,7 @@ NTSTATUS NTAPI MyNtOpenDirectoryObject(OUT PHANDLE FileHandle, IN ACCESS_MASK De
 
   NTSTATUS ntStatus = STATUS_SUCCESS;
 
-  if (CHECK_RULE(RuleType::DIRECTORY_OBJECT, ObjectAttributes))
+  if (CHECK_RULE2(RuleType::DIRECTORY_OBJECT, ObjectAttributes))
   {
     objectAttributes.Redirect();
   }

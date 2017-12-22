@@ -16,7 +16,7 @@ NTSTATUS NTAPI MyNtCreateSemaphore(__out PHANDLE SemaphoreHandle, __in ACCESS_MA
 
   NTSTATUS ntStatus = STATUS_SUCCESS;
 
-  if (CHECK_RULE(RuleType::SEMAPHORE, ObjectAttributes))
+  if (CHECK_RULE2(RuleType::SEMAPHORE, ObjectAttributes))
   {
     objectAttributes.Virtualize();
   }
@@ -34,7 +34,7 @@ NTSTATUS NTAPI MyNtOpenSemaphore(__out PHANDLE SemaphoreHandle, __in ACCESS_MASK
 
   NTSTATUS ntStatus = STATUS_SUCCESS;
 
-  if (CHECK_RULE(RuleType::SEMAPHORE, ObjectAttributes))
+  if (CHECK_RULE2(RuleType::SEMAPHORE, ObjectAttributes))
   {
     objectAttributes.Virtualize();
   }

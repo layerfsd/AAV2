@@ -3,6 +3,8 @@
 enum class RuleType
 {
   INVALID,
+
+  // NT Security projects
   ATTRIBUTES_FILE,
   DIRECOTRY_OBJECT,
   EVENT,
@@ -11,4 +13,7 @@ enum class RuleType
   SEMAPHORE,
   TIMER,
   MUTANT,
+
+  // COM
+  OUT_OF_PROCESS_COM,
 };

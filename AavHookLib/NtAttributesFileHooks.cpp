@@ -34,7 +34,7 @@ NTSTATUS NTAPI MyNtQueryAttributesFile(const POBJECT_ATTRIBUTES ObjectAttributes
 
   NTSTATUS ntStatus = STATUS_SUCCESS;
 
-  if(CHECK_RULE(RuleType::ATTRIBUTES_FILE, ObjectAttributes))
+  if(CHECK_RULE2(RuleType::ATTRIBUTES_FILE, ObjectAttributes))
   {
     objectAttributes.Redirect();
   }
@@ -52,7 +52,7 @@ NTSTATUS NTAPI MyNtQueryFullAttributesFile(const POBJECT_ATTRIBUTES ObjectAttrib
 
   NTSTATUS ntStatus = STATUS_SUCCESS;
 
-  if (CHECK_RULE(RuleType::ATTRIBUTES_FILE, ObjectAttributes))
+  if (CHECK_RULE2(RuleType::ATTRIBUTES_FILE, ObjectAttributes))
   {
     objectAttributes.Redirect();
   }

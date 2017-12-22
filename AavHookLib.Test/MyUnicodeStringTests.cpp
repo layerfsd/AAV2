@@ -4,65 +4,63 @@
 #include "../AavHookLib/RTL.h"
 
 namespace aavHookLibTests {
-  namespace UnicodeString {
-    TEST_CASE("Constructing MyUnicodeString") {
-      InitRTLFunctions();
+  TEST_CASE("Constructing MyUnicodeString") {
+    InitRTLFunctions();
 
-      UNICODE_STRING uString = {};
+    UNICODE_STRING uString = {};
 
-      TrueRtlInitUnicodeString(&uString, L"Hello");
+    TrueRtlInitUnicodeString(&uString, L"Hello");
 
-      // Note: Braces are required as the desctructor reverts the original UNICODE_STRING
-      {
-        MyUnicodeString us(&uString);
-      }
-
-      std::wstring test = uString.Buffer;
-
-      REQUIRE(test.compare(L"Hello") == 0);
+    // Note: Braces are required as the desctructor reverts the original UNICODE_STRING
+    {
+      MyUnicodeString us(&uString);
     }
 
-    TEST_CASE("Assigning MyUnicodeString") {
-      InitRTLFunctions();
+    std::wstring test = uString.Buffer;
 
-      UNICODE_STRING uString = {};
+    REQUIRE(test.compare(L"Hello") == 0);
+  }
 
-      TrueRtlInitUnicodeString(&uString, L"Hello");
+  TEST_CASE("Assigning MyUnicodeString") {
+    InitRTLFunctions();
 
-      // Note: Braces are required as the desctructor reverts the original UNICODE_STRING
-      {
-        MyUnicodeString us;
+    UNICODE_STRING uString = {};
 
-        us = &uString;
+    TrueRtlInitUnicodeString(&uString, L"Hello");
 
-        us.Virtualize();
-      }
+    // Note: Braces are required as the desctructor reverts the original UNICODE_STRING
+    {
+      MyUnicodeString us;
 
-      std::wstring test = uString.Buffer;
+      us = &uString;
 
-      REQUIRE(test.compare(L"Hello") == 0);
+      us.Virtualize();
     }
 
-    TEST_CASE("Virtualizing MyUnicodeString") {
-      InitRTLFunctions();
+    std::wstring test = uString.Buffer;
 
-      UNICODE_STRING uString = {};
+    REQUIRE(test.compare(L"Hello") == 0);
+  }
 
-      TrueRtlInitUnicodeString(&uString, L"Hello");
+  TEST_CASE("Virtualizing MyUnicodeString") {
+    InitRTLFunctions();
 
-      // Note: Braces are required as the desctructor reverts the original UNICODE_STRING
-      {
-        MyUnicodeString us(&uString);
+    UNICODE_STRING uString = {};
 
-        us.Virtualize();
+    TrueRtlInitUnicodeString(&uString, L"Hello");
 
-        std::wstring test = uString.Buffer;
-        REQUIRE(test.size() > 6);
-      }
+    // Note: Braces are required as the desctructor reverts the original UNICODE_STRING
+    {
+      MyUnicodeString us(&uString);
+
+      us.Virtualize();
 
       std::wstring test = uString.Buffer;
-
-      REQUIRE(test.compare(L"Hello") == 0);
+      REQUIRE(test.size() > 6);
     }
+
+    std::wstring test = uString.Buffer;
+
+    REQUIRE(test.compare(L"Hello") == 0);
   }
 }

@@ -15,7 +15,7 @@ NTSTATUS NTAPI MyNtCreateMutant(__out PHANDLE MutantHandle, __in ACCESS_MASK Des
 
   NTSTATUS ntStatus = STATUS_SUCCESS;
 
-  if(CHECK_RULE(RuleType::MUTANT, ObjectAttributes))
+  if(CHECK_RULE2(RuleType::MUTANT, ObjectAttributes))
   {
     objectAttributes.Virtualize();
   }
@@ -33,7 +33,7 @@ NTSTATUS NTAPI MyNtOpenMutant(__out PHANDLE MutantHandle, __in ACCESS_MASK Desir
 
   NTSTATUS ntStatus = STATUS_SUCCESS;
 
-  if (CHECK_RULE(RuleType::MUTANT, ObjectAttributes))
+  if (CHECK_RULE2(RuleType::MUTANT, ObjectAttributes))
   {
     objectAttributes.Virtualize();
   }

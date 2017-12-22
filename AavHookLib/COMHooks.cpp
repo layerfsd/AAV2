@@ -1,5 +1,7 @@
 #include "stdafx.h"
 #include "../Cloudhouse.Detours/Cloudhouse.Detour.h"
+#include "RuleType.h"
+#include "RulesEngine.h"
 
 using T_CoCreateInstance = HRESULT(STDAPICALLTYPE* )(_In_ REFCLSID rclsid, _In_opt_ LPUNKNOWN pUnkOuter, _In_ DWORD dwClsContext, _In_ REFIID riid, _COM_Outptr_ _At_(*ppv, _Post_readable_size_(_Inexpressible_(varies))) LPVOID FAR* ppv);
 using T_CoRegisterClassObject = HRESULT(STDAPICALLTYPE*)( _In_ REFCLSID rclsid, _In_ LPUNKNOWN pUnk, _In_ DWORD dwClsContext, _In_ DWORD flags, _Out_ LPDWORD lpdwRegister);
@@ -89,23 +91,31 @@ void UpdateFakeLocalServer(const GUID& fakeIID)
   }
 }
 
+void VirtualizeCOMObject(_In_ DWORD dwClsContext, GUID& iid)
+{
+  if (CHECK_RULE1(RuleType::OUT_OF_PROCESS_COM))
+  {
+    if ((dwClsContext & CLSCTX_LOCAL_SERVER) == CLSCTX_LOCAL_SERVER)
+      {
+      GUID fakeIID = {};
+
+      if (CreateOrGetFakeIID(iid, fakeIID))
+      {
+        UpdateFakeLocalServer(fakeIID);
+      }
+
+      iid = fakeIID;
+    }
+  }
+}
+
 HRESULT STDAPICALLTYPE MyCoCreateInstance(_In_ REFCLSID rclsid, _In_opt_ LPUNKNOWN pUnkOuter, _In_ DWORD dwClsContext, _In_ REFIID riid, _COM_Outptr_ _At_(*ppv, _Post_readable_size_(_Inexpressible_(varies))) LPVOID FAR* ppv)
 {
   HRESULT hr = E_NOINTERFACE;
 
   GUID iid = rclsid;
 
-  if (dwClsContext == CLSCTX_LOCAL_SERVER)                /// Should really just check for the bit comparison ????
-  {
-    GUID fakeIID = {};
-
-    if (CreateOrGetFakeIID(iid, fakeIID))
-    {
-      UpdateFakeLocalServer(fakeIID);
-    }
-
-    iid = fakeIID;
-  }
+  VirtualizeCOMObject(dwClsContext, iid);
 
   hr = TrueCoCreateInstance(iid, pUnkOuter, dwClsContext, riid, ppv);
 
@@ -116,17 +126,7 @@ HRESULT STDAPICALLTYPE MyCoRegisterClassObject(_In_ REFCLSID rclsid, _In_ LPUNKN
 {
   GUID iid = rclsid;
 
-  if ((dwClsContext & CLSCTX_LOCAL_SERVER) == CLSCTX_LOCAL_SERVER)
-  {
-    GUID fakeIID = {};
-
-    if (CreateOrGetFakeIID(iid, fakeIID))
-    {
-      UpdateFakeLocalServer(fakeIID);
-    }
-
-    iid = fakeIID;
-  }
+  VirtualizeCOMObject(dwClsContext, iid);
 
   HRESULT hr = TrueCoRegisterClassObject(iid, pUnk, dwClsContext, flags, lpdwRegister);
 

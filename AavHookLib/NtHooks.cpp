@@ -14,12 +14,12 @@ void HookNtFunctions()
 {
   InitRTLFunctions();
     
-  //HookNtAttributesFileFunctions();
-  //HookNtDirectoryObjectFunctions();
+  HookNtAttributesFileFunctions();
+  HookNtDirectoryObjectFunctions();
   HookNtEventFunctions();
   HookNtPortFunctions();
-  //HookNtSectionFunctions();
-  //HookNtSemaphoreFunctions();
-  //HookNtTimerFunctions();
-  //HookNtMutantFunctions();
+  HookNtSectionFunctions();
+  HookNtSemaphoreFunctions();
+  HookNtTimerFunctions();
+  HookNtMutantFunctions();
 }
